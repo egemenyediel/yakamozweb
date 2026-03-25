@@ -2,5 +2,6 @@
 aptPkgs = ["openssl", "libssl3", "libssl-dev", "ca-certificates"]
 
 [phases.runtime]
-# Node 20 LTS için yeterli olan sürüm
+# Node 20 LTS ve Prisma engine system dependencies
 nixPkgs = ["nodejs_20"]
+aptPkgs = ["libssl3"]  # Required for Prisma libquery_engine
