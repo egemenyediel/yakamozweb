@@ -1,0 +1,6 @@
+[phases.setup]
+aptPkgs = ["openssl", "libssl3", "libssl-dev", "ca-certificates"]
+
+[phases.runtime]
+# Node 20 LTS için yeterli olan sürüm
+nixPkgs = ["nodejs_20"]
