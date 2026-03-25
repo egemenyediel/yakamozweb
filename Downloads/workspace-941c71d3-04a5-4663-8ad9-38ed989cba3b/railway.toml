@@ -3,11 +3,11 @@ builder = "nixpacks"
 buildCommand = "bun install && bunx prisma generate && bun run build"
 
 [deploy]
-startCommand = "bunx prisma db push && mkdir -p $STORAGE_PATH && NODE_ENV=production bun .next/standalone/server.js"
+startCommand = "bash -c 'apt-get update && apt-get install -y libssl3 2>/dev/null || true; mkdir -p $STORAGE_PATH && NODE_ENV=production node .next/standalone/server.js'"
 restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 3
 
 [deploy.healthcheck]
 type = "path"
 path = "/api/route"
-timeout = 30
+timeout = 60
