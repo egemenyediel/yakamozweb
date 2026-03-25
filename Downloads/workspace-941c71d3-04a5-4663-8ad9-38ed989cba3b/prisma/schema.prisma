@@ -1,0 +1,25 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Magazine {
+  id          String   @id @default(cuid())
+  title       String
+  issue       String   // Sayı bilgisi (ör: "Ocak 2025", "Sayı 45")
+  description String?
+  coverImage  String   // Kapak görseli URL
+  pdfUrl      String   // PDF dosyası URL
+  pageCount   Int      @default(0)
+  featured    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
