@@ -1,0 +1,163 @@
+body {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.upload-zone {
+  border: 2px dashed #c8d0da;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  background: #fafbfc;
+}
+
+.upload-zone:hover,
+.upload-zone.drag-over {
+  border-color: #0d6efd;
+  background: #e8f0fe;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-header {
+  font-size: 0.95rem;
+}
+
+.shadow {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08) !important;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table th {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.table td {
+  font-size: 0.88rem;
+  vertical-align: middle;
+  word-break: break-word;
+}
+
+.table-responsive {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+pre {
+  max-height: 600px;
+  overflow-y: auto;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+pre code {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.nav-tabs .nav-link {
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+.badge {
+  font-weight: 500;
+  font-size: 0.78rem;
+}
+
+code {
+  font-size: 0.85rem;
+}
+
+.coord {
+  font-size: 0.75rem;
+  color: #6c757d;
+}
+
+.llm-result {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+.max-file-list {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.bulk-card {
+  page-break-inside: avoid;
+}
+
+.bulk-card .card-header {
+  font-size: 0.9rem;
+}
+
+@media print {
+  body {
+    background: white !important;
+  }
+  .navbar,
+  .upload-zone,
+  #uploadForm,
+  .alert,
+  .nav-tabs,
+  .btn,
+  #emptyState,
+  #loadingCard,
+  #errorCard,
+  #tabTables,
+  #tabKeyValue,
+  #tabDocuments,
+  #tabRaw {
+    display: none !important;
+  }
+  .card {
+    box-shadow: none !important;
+    border: 1px solid #dee2e6 !important;
+    break-inside: avoid;
+  }
+  .col-lg-8 {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  #resultArea {
+    display: block !important;
+  }
+  #singleResult #tabDocFields,
+  #bulkResult {
+    display: block !important;
+  }
+  .table th,
+  .table td {
+    font-size: 10pt !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .col-lg-4,
+  .col-lg-8 {
+    margin-bottom: 1rem;
+  }
+}

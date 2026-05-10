@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Azure Form Recognizer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">Form Recognizer</a>
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="/">Analiz</a>
+        <a class="nav-link" href="/icra">İcra Analizi</a>
+        <a class="nav-link active" href="/admin">Admin</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="card shadow">
+          <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Azure Yapılandırması</h4>
+          </div>
+          <div class="card-body">
+            <div id="statusAlert" class="alert alert-info d-none"></div>
+
+            <form id="configForm">
+              <div class="mb-3">
+                <label for="endpoint" class="form-label">Azure Endpoint</label>
+                <input type="url" class="form-control" id="endpoint" name="endpoint"
+                  placeholder="https://<kaynak-adı>.cognitiveservices.azure.com">
+                <div class="form-text">Azure portalında bulunan Form Recognizer kaynak endpoint URL'si</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="apiKey" class="form-label">API Anahtarı</label>
+                <div class="input-group">
+                  <input type="password" class="form-control" id="apiKey" name="apiKey"
+                    placeholder="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx">
+                  <button class="btn btn-outline-secondary" type="button" id="toggleKey">
+                    <span id="eyeIcon">Göster</span>
+                  </button>
+                </div>
+              </div>
+
+              <hr class="my-4">
+              <h5>Model Ayarları</h5>
+
+              <div class="mb-3">
+                <label for="modelId" class="form-label">Model ID</label>
+                <select class="form-select" id="modelId" name="modelId">
+                  <option value="prebuilt-document">Genel Belge (prebuilt-document)</option>
+                  <option value="prebuilt-read">Okuma (prebuilt-read)</option>
+                  <option value="prebuilt-layout">Düzen (prebuilt-layout)</option>
+                  <option value="prebuilt-invoice">Fatura (prebuilt-invoice)</option>
+                  <option value="prebuilt-receipt">Fiş (prebuilt-receipt)</option>
+                  <option value="prebuilt-idDocument">Kimlik Belgesi (prebuilt-idDocument)</option>
+                  <option value="prebuilt-contract">Sözleşme (prebuilt-contract)</option>
+                  <option value="prebuilt-healthInsuranceCard">Sağlık Kartı (prebuilt-healthInsuranceCard)</option>
+                  <option value="prebuilt-tax.us.w2">Vergi W2 (prebuilt-tax.us.w2)</option>
+                  <option value="custom">Özel Model...</option>
+                </select>
+              </div>
+
+              <div class="mb-3 d-none" id="customModelGroup">
+                <label for="customModelId" class="form-label">Özel Model ID</label>
+                <input type="text" class="form-control" id="customModelId" name="customModelId"
+                  placeholder="özel-model-id">
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="locale" class="form-label">Dil / Locale</label>
+                  <select class="form-select" id="locale" name="locale">
+                    <option value="tr-TR">Türkçe (tr-TR)</option>
+                    <option value="en-US">İngilizce (en-US)</option>
+                    <option value="de-DE">Almanca (de-DE)</option>
+                    <option value="fr-FR">Fransızca (fr-FR)</option>
+                    <option value="es-ES">İspanyolca (es-ES)</option>
+                    <option value="">Otomatik</option>
+                  </select>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <label for="pages" class="form-label">Sayfalar</label>
+                  <input type="text" class="form-control" id="pages" name="pages"
+                    placeholder="ör: 1-3, 5 (boş = tümü)">
+                  <div class="form-text">Boş bırakılırsa tüm sayfalar analiz edilir</div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="readingOrder" class="form-label">Okuma Sırası</label>
+                <select class="form-select" id="readingOrder" name="readingOrder">
+                  <option value="basic">Temel (basic)</option>
+                  <option value="natural">Doğal (natural)</option>
+                </select>
+              </div>
+
+              <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary btn-lg">
+                  Kaydet
+                </button>
+                <button type="button" class="btn btn-outline-secondary" id="testConnection">
+                  Bağlantıyı Test Et
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="card shadow mt-4">
+          <div class="card-header bg-dark text-white">
+            <h4 class="mb-0">LLM İçerik Analizi</h4>
+          </div>
+          <div class="card-body">
+            <div id="llmStatusAlert" class="alert alert-info d-none"></div>
+
+            <form id="llmForm">
+              <div class="mb-3">
+                <div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" id="llmEnabled" name="llmEnabled">
+                  <label class="form-check-label fw-bold" for="llmEnabled">LLM Analizi Aktif</label>
+                </div>
+                <div class="form-text">Aktif edildiğinde, OCR sonrası içerik LLM'e gönderilir</div>
+              </div>
+
+              <div id="llmSettings">
+                <div class="mb-3">
+                  <label for="llmProvider" class="form-label">Sağlayıcı</label>
+                  <select class="form-select" id="llmProvider" name="llmProvider">
+                    <option value="ollama">Ollama</option>
+                    <option value="lmstudio">LM Studio</option>
+                  </select>
+                </div>
+
+                <div class="mb-3">
+                  <label for="llmEndpoint" class="form-label">LLM Endpoint</label>
+                  <input type="url" class="form-control" id="llmEndpoint" name="llmEndpoint"
+                    placeholder="http://localhost:11434">
+                  <div class="form-text">
+                    Ollama varsayılan: <code>http://localhost:11434</code> |
+                    LM Studio varsayılan: <code>http://localhost:1234</code>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-8 mb-3">
+                    <label for="llmModel" class="form-label">Model Adı</label>
+                    <input type="text" class="form-control" id="llmModel" name="llmModel"
+                      placeholder="llama3, mistral, qwen2 vb.">
+                    <div class="form-text">Yüklü model adını girin</div>
+                  </div>
+
+                  <div class="col-md-4 mb-3">
+                    <label for="llmTemperature" class="form-label">Temperature</label>
+                    <input type="number" class="form-control" id="llmTemperature" name="llmTemperature"
+                      min="0" max="2" step="0.1" value="0.3">
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="llmPrompt" class="form-label">Prompt Şablonu</label>
+                  <textarea class="form-control" id="llmPrompt" name="llmPrompt" rows="8"
+                    placeholder="LLM'e gönderilecek talimatı yazın. {CONTENT} yer tutucusu belge içeriği ile değiştirilir."></textarea>
+                  <div class="form-text">
+                    <code>{CONTENT}</code> yer tutucusu otomatik olarak belge içeriği ve tespit edilen alanlarla değiştirilir
+                  </div>
+                </div>
+
+                <div class="d-grid gap-2">
+                  <button type="submit" class="btn btn-dark btn-lg">
+                    LLM Ayarlarını Kaydet
+                  </button>
+                  <button type="button" class="btn btn-outline-dark" id="testLlm">
+                    LLM Bağlantısını Test Et
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/admin.js"></script>
+</body>
+</html>

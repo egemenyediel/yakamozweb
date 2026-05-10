@@ -1,0 +1,71 @@
+id,company_id,first_name,last_name,full_name,email,phone,position,department,linkedin,confidence,source,verified,created_at,company_name,sector
+70,7,Tumaris,Urazbayeva,Tumaris Urazbayeva,tumaris.urazbayeva@doktar.com,,International Sales Specialist,,https://www.linkedin.com/in/tumarisurazbayeva,99,hunterio,0,2026-05-06 23:09:26,Doktar,Teknoloji
+69,7,Onur,Sarucan,Onur Sarucan,onur.sarucan@doktar.com,,Agricultural Engineer,,https://www.linkedin.com/in/onur-sarucan-4508b5185,99,hunterio,0,2026-05-06 23:09:26,Doktar,Teknoloji
+68,7,Buse,Ercan,Buse Ercan,buse.ercan@doktar.com,,Geospatial Analyst,,https://www.linkedin.com/in/buse-selin-ercan-543394181,99,hunterio,0,2026-05-06 23:09:26,Doktar,Teknoloji
+67,7,Hafize,Germen,Hafize Germen,hafize.germen@doktar.com,,Operations Manager,,https://www.linkedin.com/in/hafize-germen-7203a9b5,99,hunterio,0,2026-05-06 23:09:26,Doktar,Teknoloji
+66,7,Işıl,Akbıyık,Işıl Akbıyık,isil.akbiyik@doktar.com,,Intern,,https://www.linkedin.com/in/işıl-akbıyık-107861253,99,hunterio,0,2026-05-06 23:09:26,Doktar,Teknoloji
+65,7,Yekta,Uzundemir,Yekta Uzundemir,yekta.uzundemir@doktar.com,,Data Operations Lead,,https://www.linkedin.com/in/canuzundemir,99,hunterio,0,2026-05-06 23:09:26,Doktar,Teknoloji
+64,7,Betul,Salli,Betul Salli,betul.salli@doktar.com,,Head of Product,,https://www.linkedin.com/in/betulsalli,96,hunterio,0,2026-05-06 23:09:26,Doktar,Teknoloji
+63,7,Selim,Ucer,Selim Ucer,selim.ucer@doktar.com,,Chairman,,https://www.linkedin.com/in/selimucer,96,hunterio,0,2026-05-06 23:09:26,Doktar,Teknoloji
+62,7,Tanzer,Bilgen,Tanzer Bilgen,tanzer.bilgen@doktar.com,,Chief Executive Officer,,https://www.linkedin.com/in/tanzer-bilgen-1b509912,99,hunterio,0,2026-05-06 23:09:26,Doktar,Teknoloji
+61,7,Enes,Gencer,Enes Gencer,enes.gencer@doktar.com,,Head of Data Science,,https://www.linkedin.com/in/enes-gencer-968448b3,99,hunterio,0,2026-05-06 23:09:26,Doktar,Teknoloji
+60,6,,,None None,lyrebird@lyrebirdstudio.net,,,,,60,hunterio,0,2026-05-06 23:09:21,Lyrebird Studio,Teknoloji
+59,6,,,None None,product@lyrebirdstudio.net,,,,,80,hunterio,0,2026-05-06 23:09:21,Lyrebird Studio,Teknoloji
+58,6,,,None None,support@lyrebirdstudio.net,,,,,90,hunterio,0,2026-05-06 23:09:21,Lyrebird Studio,Teknoloji
+57,6,Ecemnaz,Yaşar,Ecemnaz Yaşar,ecemnazyasar@lyrebirdstudio.net,,Product Designer,,https://www.linkedin.com/in/ecemnaz-yaşar-4413231a3,83,hunterio,0,2026-05-06 23:09:21,Lyrebird Studio,Teknoloji
+56,6,Aylin,Seçgin,Aylin Seçgin,aylinsecgin@lyrebirdstudio.net,,Product Designer,,https://www.linkedin.com/in/aylin-seçgin-31727b100,84,hunterio,0,2026-05-06 23:09:21,Lyrebird Studio,Teknoloji
+55,6,Ahmet,Arslan,Ahmet Arslan,ahmet@lyrebirdstudio.net,,Marketing Specialist,,https://www.linkedin.com/in/ahmet-serdar-arslan,87,hunterio,0,2026-05-06 23:09:21,Lyrebird Studio,Teknoloji
+54,6,Kadir,Osma,Kadir Osma,kadirosma@lyrebirdstudio.net,,Product Manager,,https://www.linkedin.com/in/kadir-osma-801b79110,91,hunterio,0,2026-05-06 23:09:21,Lyrebird Studio,Teknoloji
+53,6,Gamze,Yılmaz,Gamze Yılmaz,gamzeyilmaz@lyrebirdstudio.net,,Senior iOS Developer,,https://www.linkedin.com/in/gamze-yılmaz-02761aa4,92,hunterio,0,2026-05-06 23:09:21,Lyrebird Studio,Teknoloji
+52,6,Mert,Şimşek,Mert Şimşek,mertsimsek@lyrebirdstudio.net,,Lead Android Developer,,https://www.linkedin.com/in/mert-şimşek-240237113,93,hunterio,0,2026-05-06 23:09:21,Lyrebird Studio,Teknoloji
+51,6,Sinem,Aydın,Sinem Aydın,sinemaydin@lyrebirdstudio.net,,UI Designer,,https://www.linkedin.com/in/sinem-burhan-aydın-08330a117,94,hunterio,0,2026-05-06 23:09:21,Lyrebird Studio,Teknoloji
+50,5,Hazal,Kahya,Hazal Kahya,hazal.kahya@hepsiburada.com,,Category Manager,,https://www.linkedin.com/in/hazal-kahya-831676149,94,hunterio,0,2026-05-06 23:09:17,Hepsiburada,Teknoloji
+49,5,Mert,Çakmak,Mert Çakmak,mert.cakmak@hepsiburada.com,,Customer Experience Manager,,https://www.linkedin.com/in/mert-çakmak-1a0430117,94,hunterio,0,2026-05-06 23:09:17,Hepsiburada,Teknoloji
+48,5,Mert,Demirci,Mert Demirci,mert.demirci@hepsiburada.com,,Category Manager,,https://www.linkedin.com/in/mert-demirci-,94,hunterio,0,2026-05-06 23:09:17,Hepsiburada,Teknoloji
+47,5,Cem,Karon,Cem Karon,cem.karon@hepsiburada.com,,Global Support Director,,https://www.linkedin.com/in/cemkaron,94,hunterio,0,2026-05-06 23:09:17,Hepsiburada,Teknoloji
+46,5,Caglar,Gunes,Caglar Gunes,caglar.gunes@hepsiburada.com,,eCommerce Marketing Director,,https://www.linkedin.com/in/caglargunes,94,hunterio,0,2026-05-06 23:09:17,Hepsiburada,Teknoloji
+45,5,Gizem,Arı,Gizem Arı,gizem.ari@hepsiburada.com,,Performance Marketing Manager,,https://www.linkedin.com/in/gizem-arı-716999106,94,hunterio,0,2026-05-06 23:09:17,Hepsiburada,Teknoloji
+44,5,Meryem,Kurt,Meryem Kurt,meryem.kurt@hepsiburada.com,,Product Director,,https://www.linkedin.com/in/meryem-kurt-98779ab3,94,hunterio,0,2026-05-06 23:09:17,Hepsiburada,Teknoloji
+43,5,Emre,Onder,Emre Onder,emre.onder@hepsiburada.com,,Category Executive,,https://www.linkedin.com/in/emre-önder-35671219a,94,hunterio,0,2026-05-06 23:09:17,Hepsiburada,Teknoloji
+42,5,Esra,Fırat,Esra Fırat,esra.firat@hepsiburada.com,,Investor Relations Executive,,https://www.linkedin.com/in/esra-firat,94,hunterio,0,2026-05-06 23:09:17,Hepsiburada,Teknoloji
+41,5,Bekir,Atay,Bekir Atay,bekir.atay@hepsiburada.com,,Reporting Analyst,,https://www.linkedin.com/in/bekir-atay-77bb85198,94,hunterio,0,2026-05-06 23:09:17,Hepsiburada,Teknoloji
+40,4,Christine,Van Ha,Christine Van Ha,christine@useinsider.com,,Account Director,,https://www.linkedin.com/in/christine-van-ha-l-524677164,94,hunterio,0,2026-05-06 23:09:13,Insider,Teknoloji
+39,4,Judy,Berglind,Judy Berglind,judy@useinsider.com,,Sales Enablement Partner,,https://www.linkedin.com/in/judytam,94,hunterio,0,2026-05-06 23:09:13,Insider,Teknoloji
+38,4,Bhuvan,Gambhir,Bhuvan Gambhir,bhuvan@useinsider.com,,Partner,,https://www.linkedin.com/in/bhuvan-gambhir,94,hunterio,0,2026-05-06 23:09:13,Insider,Teknoloji
+37,4,Osman,Doğan,Osman Doğan,osman@useinsider.com,,Finance Director,,https://www.linkedin.com/in/osmandogan,94,hunterio,0,2026-05-06 23:09:13,Insider,Teknoloji
+36,4,Caglar,Icer,Caglar Icer,caglar@useinsider.com,,Chief Operating Officer,,https://www.linkedin.com/in/caglaricer,94,hunterio,0,2026-05-06 23:09:13,Insider,Teknoloji
+35,4,Pradipta,Dutta,Pradipta Dutta,pradipta@useinsider.com,,Head of Partnerships,,https://www.linkedin.com/in/pradipta-dutta-966407,94,hunterio,0,2026-05-06 23:09:13,Insider,Teknoloji
+34,4,Robert,Fulton,Robert Fulton,robert@useinsider.com,,Co-Founder,,https://www.linkedin.com/in/robert-fulton-048b35a2,94,hunterio,0,2026-05-06 23:09:13,Insider,Teknoloji
+33,4,Rahul,Raghu,Rahul Raghu,rahul@useinsider.com,,Senior Director of Client Growth,,https://www.linkedin.com/in/rahulraghu5,94,hunterio,0,2026-05-06 23:09:13,Insider,Teknoloji
+32,4,Kamran,Mahmudlu,Kamran Mahmudlu,kamran@useinsider.com,,Owner,,https://www.linkedin.com/in/kamran-mahmudlu-14579b181,94,hunterio,0,2026-05-06 23:09:13,Insider,Teknoloji
+31,4,Mert,Öner,Mert Öner,mert@useinsider.com,,Director of Client Growth and Strategy,,https://www.linkedin.com/in/onermert0,94,hunterio,0,2026-05-06 23:09:13,Insider,Teknoloji
+30,3,Melih,Girgin,Melih Girgin,melih.girgin@getir.com,,Product Master Data Manager,,https://www.linkedin.com/in/melihgirgin00,99,hunterio,0,2026-05-06 23:09:09,Getir,Lojistik
+29,3,Ahmet,Soylu,Ahmet Soylu,ahmet.soylu@getir.com,,Operations Manager,,https://www.linkedin.com/in/ahmet-soylu-3767611a3,99,hunterio,0,2026-05-06 23:09:09,Getir,Lojistik
+28,3,Numan,Bilgin,Numan Bilgin,numan.bilgin@getir.com,,Director of Development,,https://www.linkedin.com/in/numan-bilgin-520310b1,99,hunterio,0,2026-05-06 23:09:09,Getir,Lojistik
+27,3,Sercan,Asal,Sercan Asal,sercan.asal@getir.com,,Franchise Manager,,https://www.linkedin.com/in/sercanasal,99,hunterio,0,2026-05-06 23:09:09,Getir,Lojistik
+26,3,Serkan,Borancili,Serkan Borancili,serkan.borancili@getir.com,,Co-Founder,,https://www.linkedin.com/in/serkan-borancili-ab626a4,99,hunterio,0,2026-05-06 23:09:09,Getir,Lojistik
+25,3,Ahmet,Turoğlu,Ahmet Turoğlu,ahmet.turoglu@getir.com,,Head of Facilities,,https://www.linkedin.com/in/ahmet-turoğlu-11b06383,99,hunterio,0,2026-05-06 23:09:09,Getir,Lojistik
+24,3,Ceren,Aktan,Ceren Aktan,ceren.aktan@getir.com,,Category Director,,https://www.linkedin.com/in/ceren-sekerci-aktan-014b3535,99,hunterio,0,2026-05-06 23:09:09,Getir,Lojistik
+23,3,Zeynep,Yavuz,Zeynep Yavuz,zeynep.yavuz@getir.com,,Operations Manager,,https://www.linkedin.com/in/zeynep-yavuz-515184196,99,hunterio,0,2026-05-06 23:09:09,Getir,Lojistik
+22,3,Yagiz,Kilic,Yagiz Kilic,yagiz.kilic@getir.com,,Director of Strategy,,https://www.linkedin.com/in/yagizkilic,99,hunterio,0,2026-05-06 23:09:09,Getir,Lojistik
+21,3,Sena,Bayrak,Sena Bayrak,sena.bayrak@getir.com,,Category Manager,,https://www.linkedin.com/in/sena-bayrak-b72041178,99,hunterio,0,2026-05-06 23:09:09,Getir,Lojistik
+20,2,Ilke,Tuatay,Ilke Tuatay,ilke.tuatay@trendyol.com,,Finance Project Manager,,https://www.linkedin.com/in/ilketuatay,99,hunterio,0,2026-05-06 23:09:03,Trendyol,Perakende
+19,2,Utku,Cinsan,Utku Cinsan,utku.cinsan@trendyol.com,,Chief Executive Officer,,https://www.linkedin.com/in/utku-cinsan-19920b170,99,hunterio,0,2026-05-06 23:09:03,Trendyol,Perakende
+18,2,Ali,Ateş,Ali Ateş,ali.ates@trendyol.com,,Head of Last Mile Delivery,,https://www.linkedin.com/in/ali-ateş-87a82696,99,hunterio,0,2026-05-06 23:09:03,Trendyol,Perakende
+17,2,Elif,Yıldırım,Elif Yıldırım,elif.yildirim@trendyol.com,,Executive Compensation Manager,,https://www.linkedin.com/in/elif-yıldırım-ba83861bb,99,hunterio,0,2026-05-06 23:09:03,Trendyol,Perakende
+16,2,Buse,Nizam,Buse Nizam,buse.nizam@trendyol.com,,Operations Executive,,https://www.linkedin.com/in/buse-nizam-207506115,99,hunterio,0,2026-05-06 23:09:03,Trendyol,Perakende
+15,2,Mustafa,Akkoca,Mustafa Akkoca,mustafa.akkoca@trendyol.com,,Compliance Officer,,https://www.linkedin.com/in/mustafa-akkoca-b88624171,99,hunterio,0,2026-05-06 23:09:03,Trendyol,Perakende
+14,2,Dilara,Bayhan,Dilara Bayhan,dilara.bayhan@trendyol.com,,Corporate Counsel,,https://www.linkedin.com/in/dilara-bayhan-21969bb7,99,hunterio,0,2026-05-06 23:09:03,Trendyol,Perakende
+13,2,Elif,Zeytinler,Elif Zeytinler,elif.zeytinler@trendyol.com,,Head of Legal,,https://www.linkedin.com/in/elif-gökler-zeytinler-9321a465,99,hunterio,0,2026-05-06 23:09:03,Trendyol,Perakende
+12,2,Ahmet,Karamermer,Ahmet Karamermer,ahmet.karamermer@trendyol.com,,Training Manager,,https://www.linkedin.com/in/ahmet-karamermer-554952117,99,hunterio,0,2026-05-06 23:09:03,Trendyol,Perakende
+11,2,Egemen,Kocaoglu,Egemen Kocaoglu,egemen.kocaoglu@trendyol.com,,Head of Last Mile Delivery,,https://www.linkedin.com/in/egemen-kocaoglu-06258a32,99,hunterio,0,2026-05-06 23:09:03,Trendyol,Perakende
+10,1,Rana,Özgönül,Rana Özgönül,rana@peak.com,,Marketing Manager,,https://www.linkedin.com/in/ranaozgonul,97,hunterio,0,2026-05-06 23:08:57,Peak Games,Teknoloji
+9,1,Baran,Çakmak,Baran Çakmak,baran@peak.com,,Senior Marketing Manager,,https://www.linkedin.com/in/baran-cakmak-3ba006100,97,hunterio,0,2026-05-06 23:08:57,Peak Games,Teknoloji
+8,1,Onur,Korkmaz,Onur Korkmaz,onur@peak.com,,Product Manager,,https://www.linkedin.com/in/onurkorkmaz91,98,hunterio,0,2026-05-06 23:08:57,Peak Games,Teknoloji
+7,1,Bulut,Seçkin,Bulut Seçkin,bulut@peak.com,,Marketing Manager,,https://www.linkedin.com/in/bulut-adalı-seçkin-1042b9126,99,hunterio,0,2026-05-06 23:08:57,Peak Games,Teknoloji
+6,1,Zeynep,Erçin,Zeynep Erçin,zeynepercin@peak.com,,Marketing Manager,,https://www.linkedin.com/in/zeyneepercin,99,hunterio,0,2026-05-06 23:08:57,Peak Games,Teknoloji
+5,1,Levent,Seçkin,Levent Seçkin,levent@peak.com,,Director of Engineering,,https://www.linkedin.com/in/levent-seçkin-8280722b,97,hunterio,0,2026-05-06 23:08:57,Peak Games,Teknoloji
+4,1,Can,Yarangümelioğlu,Can Yarangümelioğlu,can@peak.com,,Marketing Director,,https://www.linkedin.com/in/can-salih,98,hunterio,0,2026-05-06 23:08:57,Peak Games,Teknoloji
+3,1,Ramis,Budak,Ramis Budak,ramis@peak.com,,Chief Operating Officer,,https://www.linkedin.com/in/ramis-budak-54826628,98,hunterio,0,2026-05-06 23:08:57,Peak Games,Teknoloji
+2,1,Omer,Inonu,Omer Inonu,omer@peak.com,,CEO,,https://www.linkedin.com/in/omer-inonu-1b8ab726,99,hunterio,0,2026-05-06 23:08:57,Peak Games,Teknoloji
+1,1,Başar,Muluk,Başar Muluk,basar@peak.com,,Art Director,,https://www.linkedin.com/in/bmuluk,99,hunterio,0,2026-05-06 23:08:57,Peak Games,Teknoloji

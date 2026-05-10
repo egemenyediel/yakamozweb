@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Recognizer - Belge Analizi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">Form Recognizer</a>
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link active" href="/">Analiz</a>
+        <a class="nav-link" href="/icra">İcra Analizi</a>
+        <a class="nav-link" href="/admin">Admin</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <% if (!configured) { %>
+    <div class="alert alert-warning">
+      <strong>Azure yapılandırması eksik!</strong> Lütfen <a href="/admin" class="alert-link">Admin sayfasından</a> API bilgilerini girin.
+    </div>
+    <% } %>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card shadow mb-4">
+          <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">Belge Yükle</h5>
+          </div>
+          <div class="card-body">
+            <form id="uploadForm">
+              <div class="upload-zone" id="dropZone">
+                <div class="text-center py-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cloud-arrow-up mb-2" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M7.646 5.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708z"/>
+                    <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383m.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.88 12 15 10.936 15 9.773c0-1.188-1.028-2.198-2.259-2.236l-.476-.014v-.478c0-1.244-.685-2.445-1.791-3.182A4.5 4.5 0 0 0 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                  </svg>
+                  <p class="mb-1"><strong>Dosyaları sürükleyin</strong></p>
+                  <p class="text-muted small mb-0">veya tıklayarak seçin (çoklu)</p>
+                  <p class="text-muted small mb-0">PDF, PNG, JPG, TIFF (max 50MB)</p>
+                </div>
+                <input type="file" id="fileInput" class="d-none" accept=".pdf,.png,.jpg,.jpeg,.tiff,.tif,.bmp,.heif" multiple>
+              </div>
+
+              <div id="fileList" class="d-none mt-3">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <strong><span id="fileCount">0</span> dosya seçildi</strong>
+                  <button type="button" class="btn btn-sm btn-outline-danger" id="removeFiles">Tümünü Kaldır</button>
+                </div>
+                <div id="fileItems" class="max-file-list"></div>
+              </div>
+
+              <div class="mt-3">
+                <label class="form-label small text-muted">Model: <strong><%= config.modelId %></strong></label>
+              </div>
+
+              <div class="d-grid gap-2 mt-2">
+                <button type="submit" class="btn btn-primary" id="analyzeBtn" disabled>
+                  Tek Analiz Et
+                </button>
+                <button type="button" class="btn btn-success" id="bulkAnalyzeBtn" disabled>
+                  Toplu Analiz Et
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="card shadow">
+          <div class="card-header">
+            <h5 class="mb-0">Hızlı Bilgi</h5>
+          </div>
+          <div class="card-body">
+            <table class="table table-sm table-borderless mb-0">
+              <tr><td class="text-muted">Endpoint</td><td><%= config.endpoint ? config.endpoint.replace('https://', '') : '-' %></td></tr>
+              <tr><td class="text-muted">Model</td><td><%= config.modelId %></td></tr>
+              <tr><td class="text-muted">Locale</td><td><%= config.locale || 'Otomatik' %></td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        <div id="loadingCard" class="card shadow mb-4 d-none">
+          <div class="card-body text-center py-4">
+            <div class="spinner-border text-primary mb-2" role="status">
+              <span class="visually-hidden">Yükleniyor...</span>
+            </div>
+            <p class="mb-1" id="loadingText">Belge analiz ediliyor...</p>
+            <small class="text-muted" id="loadingSubText">Bu işlem birkaç saniye sürebilir</small>
+          </div>
+        </div>
+
+        <div id="errorCard" class="alert alert-danger d-none"></div>
+
+        <div id="resultArea" class="d-none">
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <h5 class="mb-0" id="resultTitle">Sonuçlar</h5>
+            <div>
+              <button class="btn btn-sm btn-outline-primary" id="printBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer me-1" viewBox="0 0 16 16"><path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1"/><path d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a1 1 0 0 0-1 1v3H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2V9a1 1 0 0 0-1-1zm7 1v4H5V9z"/></svg>
+                Yazdır
+              </button>
+              <button class="btn btn-sm btn-outline-success" id="exportCsvBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download me-1" viewBox="0 0 16 16"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/></svg>
+                CSV
+              </button>
+              <button class="btn btn-sm btn-outline-warning" id="exportXmlBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-code me-1" viewBox="0 0 16 16"><path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5z"/><path d="M8.646 6.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 9 8.646 7.354a.5.5 0 0 1 0-.708m-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 9l1.647-1.646a.5.5 0 0 0 0-.708"/></svg>
+                XML İndir
+              </button>
+            </div>
+          </div>
+
+          <div id="singleResult">
+            <ul class="nav nav-tabs" id="resultTabs">
+              <li class="nav-item">
+                <button class="nav-link active" data-bs-toggle="tab" data-target="#tabDocFields">Belge Alanları</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-target="#tabLlmResult">LLM Sonuç</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-target="#tabTables">Tablolar</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-target="#tabKeyValue">Anahtar-Değer</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-target="#tabDocuments">Belge Detay</button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-target="#tabRaw">Ham JSON</button>
+              </li>
+            </ul>
+
+            <div class="tab-content mt-3" id="resultTabContent">
+              <div class="tab-pane fade show active" id="tabDocFields">
+                <div id="docFieldsContent"></div>
+              </div>
+              <div class="tab-pane fade" id="tabLlmResult">
+                <div id="llmContent"></div>
+              </div>
+              <div class="tab-pane fade" id="tabTables">
+                <div id="tablesContent"></div>
+              </div>
+              <div class="tab-pane fade" id="tabKeyValue">
+                <div id="keyValueContent"></div>
+              </div>
+              <div class="tab-pane fade" id="tabDocuments">
+                <div id="documentsContent"></div>
+              </div>
+              <div class="tab-pane fade" id="tabRaw">
+                <div id="rawContent">
+                  <button class="btn btn-sm btn-outline-secondary mb-2" id="copyJson">JSON Kopyala</button>
+                  <pre class="bg-dark text-light p-3 rounded"><code id="rawJson"></code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="bulkResult" class="d-none"></div>
+        </div>
+
+        <div id="emptyState" class="text-center py-5 text-muted">
+          <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-file-earmark-text mb-3" viewBox="0 0 16 16">
+            <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5"/>
+            <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+          </svg>
+          <p>Analiz sonuçları burada görüntülenecek</p>
+          <small>Dosya yükleyerek başlayın</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,4180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BelgeAnalizi>
+  <DosyaAdi>2025_10_13 IÌstanbul 32 IÌcra Dairesi_2018_11780_89_1 Haciz IÌhbarnamesi CevabÄ±_12907245423_18592.pdf</DosyaAdi>
+  <AnalizTarihi>2026-05-08T14:33:47.214Z</AnalizTarihi>
+  <Alanlar>
+    <Alan>
+      <Ad>TCKN</Ad>
+      <Deger>39229158414</Deger>
+      <Tip>string</Tip>
+      <Guven>76.8%</Guven>
+      <Sayfa>1</Sayfa>
+      <Koordinat></Koordinat>
+    </Alan>
+    <Alan>
+      <Ad>BELGETARIH</Ad>
+      <Deger>13.10.2025</Deger>
+      <Tip>string</Tip>
+      <Guven>96.5%</Guven>
+      <Sayfa>1</Sayfa>
+      <Koordinat></Koordinat>
+    </Alan>
+    <Alan>
+      <Ad>BANKAADI</Ad>
+      <Deger>ODEABANK A.Ş.</Deger>
+      <Tip>string</Tip>
+      <Guven>80.8%</Guven>
+      <Sayfa>1</Sayfa>
+      <Koordinat></Koordinat>
+    </Alan>
+    <Alan>
+      <Ad>EvrakNo</Ad>
+      <Deger>2018/11780</Deger>
+      <Tip>string</Tip>
+      <Guven>97.1%</Guven>
+      <Sayfa>1</Sayfa>
+      <Koordinat></Koordinat>
+    </Alan>
+    <Alan>
+      <Ad>ALICI</Ad>
+      <Deger>İstanbul 32. İcra Dairesi</Deger>
+      <Tip>string</Tip>
+      <Guven>80.3%</Guven>
+      <Sayfa>1</Sayfa>
+      <Koordinat></Koordinat>
+    </Alan>
+    <Alan>
+      <Ad>DosyaNo</Ad>
+      <Deger>2510131016001131</Deger>
+      <Tip>string</Tip>
+      <Guven>95.7%</Guven>
+      <Sayfa>1</Sayfa>
+      <Koordinat></Koordinat>
+    </Alan>
+    <Alan>
+      <Ad>BORCLUTAMAD</Ad>
+      <Deger>-</Deger>
+      <Tip>string</Tip>
+      <Guven>23.9%</Guven>
+      <Sayfa></Sayfa>
+      <Koordinat></Koordinat>
+    </Alan>
+    <Alan>
+      <Ad>Tutar</Ad>
+      <Deger>-</Deger>
+      <Tip>string</Tip>
+      <Guven>60.7%</Guven>
+      <Sayfa></Sayfa>
+      <Koordinat></Koordinat>
+    </Alan>
+  </Alanlar>
+  <Tablolar/>
+  <AnahtarDegerler/>
+  
+  <OCRContent><![CDATA[odeabank
+Esentepe Mah. Büyükdere Cad. Levent 199 Apt. No: 199/119 Şişli / İstanbul T: 0212 304 84 44 F: 0212 304 84 45
+Ref No : 2510131016001131 13.10.2025
+T.C. İstanbul 32. İcra Dairesi
+İSTANBUL
+KONU : Haciz İLGİ :Bila tarih ve 2018/11780 sayılı yazınız;
+39229158414/ TCKN/VKN no.'lu Takip borçlusu adına Bankamız Genel Müdürlüğü ve tüm Şubelerimiz nezdinde gerekli araştırma yapılmış olup, adı geçen borçlunun herhangi bir hak ve alacağına rastlanılmamıştır. İlgili kanun hükümleri gereğince hacze itiraz eder cevap verildiği andan itibaren ileriye yönelik herhangi bir takip yükümlülüğümüz olmadığı hususunu bilgilerinize sunarız;
+Bilgilerinize arz ederiz.
+Saygılarımızla,
+ODEABANK A.Ş. GENEL MÜDÜRLÜK
+VOLKAN AÇAR Müdür Yardımcısı
+THANH
+TEOMAN AYDINLI Direktör
+Odea Bank A.Ş, Mersis No: 0-6340-4219-7300010, www.odeabank.com.tr]]></OCRContent>
+  <HamOCR><![CDATA[{
+  "apiVersion": "2023-07-31",
+  "modelId": "0505-YeniAlanlar-BankaCevap",
+  "content": "odeabank\nEsentepe Mah. Büyükdere Cad. Levent 199 Apt. No: 199/119 Şişli / İstanbul T: 0212 304 84 44 F: 0212 304 84 45\nRef No : 2510131016001131 13.10.2025\nT.C. İstanbul 32. İcra Dairesi\nİSTANBUL\nKONU : Haciz İLGİ :Bila tarih ve 2018/11780 sayılı yazınız;\n39229158414/ TCKN/VKN no.'lu Takip borçlusu adına Bankamız Genel Müdürlüğü ve tüm Şubelerimiz nezdinde gerekli araştırma yapılmış olup, adı geçen borçlunun herhangi bir hak ve alacağına rastlanılmamıştır. İlgili kanun hükümleri gereğince hacze itiraz eder cevap verildiği andan itibaren ileriye yönelik herhangi bir takip yükümlülüğümüz olmadığı hususunu bilgilerinize sunarız;\nBilgilerinize arz ederiz.\nSaygılarımızla,\nODEABANK A.Ş. GENEL MÜDÜRLÜK\nVOLKAN AÇAR Müdür Yardımcısı\nTHANH\nTEOMAN AYDINLI Direktör\nOdea Bank A.Ş, Mersis No: 0-6340-4219-7300010, www.odeabank.com.tr",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "angle": 0.026227250695228577,
+      "width": 8.2639,
+      "height": 11.6806,
+      "unit": "inch",
+      "spans": [
+        {
+          "offset": 0,
+          "length": 830
+        }
+      ],
+      "words": [
+        {
+          "content": "odeabank",
+          "polygon": [
+            {
+              "x": 5.1,
+              "y": 0.1098
+            },
+            {
+              "x": 7.6019,
+              "y": 0.0931
+            },
+            {
+              "x": 7.6019,
+              "y": 0.647
+            },
+            {
+              "x": 5.1018,
+              "y": 0.6502
+            }
+          ],
+          "span": {
+            "offset": 0,
+            "length": 8
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "Esentepe",
+          "polygon": [
+            {
+              "x": 0.6067,
+              "y": 0.077
+            },
+            {
+              "x": 1.1191,
+              "y": 0.0774
+            },
+            {
+              "x": 1.1191,
+              "y": 0.2141
+            },
+            {
+              "x": 0.6068,
+              "y": 0.2115
+            }
+          ],
+          "span": {
+            "offset": 9,
+            "length": 8
+          },
+          "confidence": 0.997
+        },
+        {
+          "content": "Mah.",
+          "polygon": [
+            {
+              "x": 1.1461,
+              "y": 0.0772
+            },
+            {
+              "x": 1.4553,
+              "y": 0.0739
+            },
+            {
+              "x": 1.4553,
+              "y": 0.2118
+            },
+            {
+              "x": 1.146,
+              "y": 0.2145
+            }
+          ],
+          "span": {
+            "offset": 18,
+            "length": 4
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "Büyükdere",
+          "polygon": [
+            {
+              "x": 0.6074,
+              "y": 0.2385
+            },
+            {
+              "x": 1.2105,
+              "y": 0.2363
+            },
+            {
+              "x": 1.2107,
+              "y": 0.3774
+            },
+            {
+              "x": 0.6076,
+              "y": 0.3786
+            }
+          ],
+          "span": {
+            "offset": 23,
+            "length": 9
+          },
+          "confidence": 0.996
+        },
+        {
+          "content": "Cad.",
+          "polygon": [
+            {
+              "x": 1.2499,
+              "y": 0.2361
+            },
+            {
+              "x": 1.4953,
+              "y": 0.2335
+            },
+            {
+              "x": 1.4953,
+              "y": 0.3761
+            },
+            {
+              "x": 1.2501,
+              "y": 0.3772
+            }
+          ],
+          "span": {
+            "offset": 33,
+            "length": 4
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "Levent",
+          "polygon": [
+            {
+              "x": 0.607,
+              "y": 0.4074
+            },
+            {
+              "x": 0.9868,
+              "y": 0.4066
+            },
+            {
+              "x": 0.9865,
+              "y": 0.5432
+            },
+            {
+              "x": 0.6069,
+              "y": 0.5416
+            }
+          ],
+          "span": {
+            "offset": 38,
+            "length": 6
+          },
+          "confidence": 0.998
+        },
+        {
+          "content": "199",
+          "polygon": [
+            {
+              "x": 1.0272,
+              "y": 0.4067
+            },
+            {
+              "x": 1.2249,
+              "y": 0.4066
+            },
+            {
+              "x": 1.2245,
+              "y": 0.5437
+            },
+            {
+              "x": 1.027,
+              "y": 0.5433
+            }
+          ],
+          "span": {
+            "offset": 45,
+            "length": 3
+          },
+          "confidence": 0.999
+        },
+        {
+          "content": "Apt.",
+          "polygon": [
+            {
+              "x": 1.2609,
+              "y": 0.4067
+            },
+            {
+              "x": 1.49,
+              "y": 0.4055
+            },
+            {
+              "x": 1.4892,
+              "y": 0.545
+            },
+            {
+              "x": 1.2604,
+              "y": 0.5438
+            }
+          ],
+          "span": {
+            "offset": 49,
+            "length": 4
+          },
+          "confidence": 0.989
+        },
+        {
+          "content": "No:",
+          "polygon": [
+            {
+              "x": 1.5372,
+              "y": 0.4055
+            },
+            {
+              "x": 1.735,
+              "y": 0.4059
+            },
+            {
+              "x": 1.735,
+              "y": 0.5449
+            },
+            {
+              "x": 1.5362,
+              "y": 0.5452
+            }
+          ],
+          "span": {
+            "offset": 54,
+            "length": 3
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "199/119",
+          "polygon": [
+            {
+              "x": 0.6081,
+              "y": 0.5728
+            },
+            {
+              "x": 1.0958,
+              "y": 0.5695
+            },
+            {
+              "x": 1.0958,
+              "y": 0.703
+            },
+            {
+              "x": 0.6082,
+              "y": 0.7039
+            }
+          ],
+          "span": {
+            "offset": 58,
+            "length": 7
+          },
+          "confidence": 0.996
+        },
+        {
+          "content": "Şişli",
+          "polygon": [
+            {
+              "x": 0.6019,
+              "y": 0.7393
+            },
+            {
+              "x": 0.8156,
+              "y": 0.738
+            },
+            {
+              "x": 0.8156,
+              "y": 0.8849
+            },
+            {
+              "x": 0.6024,
+              "y": 0.8868
+            }
+          ],
+          "span": {
+            "offset": 66,
+            "length": 5
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "/",
+          "polygon": [
+            {
+              "x": 0.8496,
+              "y": 0.7374
+            },
+            {
+              "x": 0.8934,
+              "y": 0.7364
+            },
+            {
+              "x": 0.8934,
+              "y": 0.8853
+            },
+            {
+              "x": 0.8496,
+              "y": 0.885
+            }
+          ],
+          "span": {
+            "offset": 72,
+            "length": 1
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "İstanbul",
+          "polygon": [
+            {
+              "x": 0.9225,
+              "y": 0.736
+            },
+            {
+              "x": 1.4039,
+              "y": 0.7328
+            },
+            {
+              "x": 1.4039,
+              "y": 0.8798
+            },
+            {
+              "x": 0.9225,
+              "y": 0.8849
+            }
+          ],
+          "span": {
+            "offset": 74,
+            "length": 8
+          },
+          "confidence": 0.987
+        },
+        {
+          "content": "T:",
+          "polygon": [
+            {
+              "x": 0.6011,
+              "y": 0.9059
+            },
+            {
+              "x": 0.7056,
+              "y": 0.9066
+            },
+            {
+              "x": 0.7058,
+              "y": 1.0365
+            },
+            {
+              "x": 0.6015,
+              "y": 1.0368
+            }
+          ],
+          "span": {
+            "offset": 83,
+            "length": 2
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "0212",
+          "polygon": [
+            {
+              "x": 0.7461,
+              "y": 0.907
+            },
+            {
+              "x": 1.0211,
+              "y": 0.9063
+            },
+            {
+              "x": 1.0211,
+              "y": 1.037
+            },
+            {
+              "x": 0.7462,
+              "y": 1.036
+            }
+          ],
+          "span": {
+            "offset": 86,
+            "length": 4
+          },
+          "confidence": 0.984
+        },
+        {
+          "content": "304",
+          "polygon": [
+            {
+              "x": 1.0616,
+              "y": 0.9061
+            },
+            {
+              "x": 1.2663,
+              "y": 0.9072
+            },
+            {
+              "x": 1.2661,
+              "y": 1.0365
+            },
+            {
+              "x": 1.0615,
+              "y": 1.0368
+            }
+          ],
+          "span": {
+            "offset": 91,
+            "length": 3
+          },
+          "confidence": 0.979
+        },
+        {
+          "content": "84",
+          "polygon": [
+            {
+              "x": 1.3025,
+              "y": 0.9068
+            },
+            {
+              "x": 1.439,
+              "y": 0.9062
+            },
+            {
+              "x": 1.4386,
+              "y": 1.037
+            },
+            {
+              "x": 1.3022,
+              "y": 1.0366
+            }
+          ],
+          "span": {
+            "offset": 95,
+            "length": 2
+          },
+          "confidence": 0.997
+        },
+        {
+          "content": "44",
+          "polygon": [
+            {
+              "x": 1.4731,
+              "y": 0.9061
+            },
+            {
+              "x": 1.6265,
+              "y": 0.9058
+            },
+            {
+              "x": 1.6265,
+              "y": 1.0365
+            },
+            {
+              "x": 1.4726,
+              "y": 1.0372
+            }
+          ],
+          "span": {
+            "offset": 98,
+            "length": 2
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "F:",
+          "polygon": [
+            {
+              "x": 0.604,
+              "y": 1.0716
+            },
+            {
+              "x": 0.7021,
+              "y": 1.0724
+            },
+            {
+              "x": 0.7019,
+              "y": 1.2004
+            },
+            {
+              "x": 0.6038,
+              "y": 1.2007
+            }
+          ],
+          "span": {
+            "offset": 101,
+            "length": 2
+          },
+          "confidence": 0.987
+        },
+        {
+          "content": "0212",
+          "polygon": [
+            {
+              "x": 0.7418,
+              "y": 1.0724
+            },
+            {
+              "x": 1.0173,
+              "y": 1.0725
+            },
+            {
+              "x": 1.0168,
+              "y": 1.2001
+            },
+            {
+              "x": 0.7415,
+              "y": 1.2002
+            }
+          ],
+          "span": {
+            "offset": 104,
+            "length": 4
+          },
+          "confidence": 0.99
+        },
+        {
+          "content": "304",
+          "polygon": [
+            {
+              "x": 1.059,
+              "y": 1.0724
+            },
+            {
+              "x": 1.2636,
+              "y": 1.073
+            },
+            {
+              "x": 1.2633,
+              "y": 1.1992
+            },
+            {
+              "x": 1.0586,
+              "y": 1.1999
+            }
+          ],
+          "span": {
+            "offset": 109,
+            "length": 3
+          },
+          "confidence": 0.998
+        },
+        {
+          "content": "84",
+          "polygon": [
+            {
+              "x": 1.2991,
+              "y": 1.0729
+            },
+            {
+              "x": 1.4347,
+              "y": 1.0724
+            },
+            {
+              "x": 1.4346,
+              "y": 1.1993
+            },
+            {
+              "x": 1.2989,
+              "y": 1.1991
+            }
+          ],
+          "span": {
+            "offset": 113,
+            "length": 2
+          },
+          "confidence": 0.997
+        },
+        {
+          "content": "45",
+          "polygon": [
+            {
+              "x": 1.4702,
+              "y": 1.0723
+            },
+            {
+              "x": 1.6208,
+              "y": 1.0724
+            },
+            {
+              "x": 1.6208,
+              "y": 1.1996
+            },
+            {
+              "x": 1.47,
+              "y": 1.1996
+            }
+          ],
+          "span": {
+            "offset": 116,
+            "length": 2
+          },
+          "confidence": 0.997
+        },
+        {
+          "content": "Ref",
+          "polygon": [
+            {
+              "x": 0.5972,
+              "y": 1.2651
+            },
+            {
+              "x": 0.8482,
+              "y": 1.2648
+            },
+            {
+              "x": 0.8481,
+              "y": 1.4201
+            },
+            {
+              "x": 0.5972,
+              "y": 1.4201
+            }
+          ],
+          "span": {
+            "offset": 119,
+            "length": 3
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "No",
+          "polygon": [
+            {
+              "x": 0.8796,
+              "y": 1.2648
+            },
+            {
+              "x": 1.1018,
+              "y": 1.2638
+            },
+            {
+              "x": 1.102,
+              "y": 1.4201
+            },
+            {
+              "x": 0.8795,
+              "y": 1.4201
+            }
+          ],
+          "span": {
+            "offset": 123,
+            "length": 2
+          },
+          "confidence": 0.993
+        },
+        {
+          "content": ":",
+          "polygon": [
+            {
+              "x": 1.1541,
+              "y": 1.264
+            },
+            {
+              "x": 1.1881,
+              "y": 1.264
+            },
+            {
+              "x": 1.1882,
+              "y": 1.4201
+            },
+            {
+              "x": 1.1542,
+              "y": 1.4201
+            }
+          ],
+          "span": {
+            "offset": 126,
+            "length": 1
+          },
+          "confidence": 0.979
+        },
+        {
+          "content": "2510131016001131",
+          "polygon": [
+            {
+              "x": 1.243,
+              "y": 1.2641
+            },
+            {
+              "x": 2.5739,
+              "y": 1.259
+            },
+            {
+              "x": 2.5739,
+              "y": 1.4201
+            },
+            {
+              "x": 1.2431,
+              "y": 1.4201
+            }
+          ],
+          "span": {
+            "offset": 128,
+            "length": 16
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "13.10.2025",
+          "polygon": [
+            {
+              "x": 0.5931,
+              "y": 1.6285
+            },
+            {
+              "x": 1.3469,
+              "y": 1.6259
+            },
+            {
+              "x": 1.3469,
+              "y": 1.784
+            },
+            {
+              "x": 0.5934,
+              "y": 1.7842
+            }
+          ],
+          "span": {
+            "offset": 145,
+            "length": 10
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "T.C.",
+          "polygon": [
+            {
+              "x": 0.6003,
+              "y": 2.0122
+            },
+            {
+              "x": 0.9303,
+              "y": 2.0114
+            },
+            {
+              "x": 0.9303,
+              "y": 2.1655
+            },
+            {
+              "x": 0.6004,
+              "y": 2.1649
+            }
+          ],
+          "span": {
+            "offset": 156,
+            "length": 4
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "İstanbul",
+          "polygon": [
+            {
+              "x": 0.5986,
+              "y": 2.1929
+            },
+            {
+              "x": 1.1991,
+              "y": 2.1932
+            },
+            {
+              "x": 1.1993,
+              "y": 2.3751
+            },
+            {
+              "x": 0.5987,
+              "y": 2.3746
+            }
+          ],
+          "span": {
+            "offset": 161,
+            "length": 8
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "32.",
+          "polygon": [
+            {
+              "x": 1.2409,
+              "y": 2.1931
+            },
+            {
+              "x": 1.444,
+              "y": 2.1932
+            },
+            {
+              "x": 1.444,
+              "y": 2.3753
+            },
+            {
+              "x": 1.241,
+              "y": 2.3748
+            }
+          ],
+          "span": {
+            "offset": 170,
+            "length": 3
+          },
+          "confidence": 0.993
+        },
+        {
+          "content": "İcra",
+          "polygon": [
+            {
+              "x": 1.4948,
+              "y": 2.1932
+            },
+            {
+              "x": 1.7846,
+              "y": 2.1935
+            },
+            {
+              "x": 1.7843,
+              "y": 2.3754
+            },
+            {
+              "x": 1.4948,
+              "y": 2.3753
+            }
+          ],
+          "span": {
+            "offset": 174,
+            "length": 4
+          },
+          "confidence": 0.989
+        },
+        {
+          "content": "Dairesi",
+          "polygon": [
+            {
+              "x": 1.8294,
+              "y": 2.1932
+            },
+            {
+              "x": 2.357,
+              "y": 2.193
+            },
+            {
+              "x": 2.357,
+              "y": 2.376
+            },
+            {
+              "x": 1.8292,
+              "y": 2.3754
+            }
+          ],
+          "span": {
+            "offset": 179,
+            "length": 7
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "İSTANBUL",
+          "polygon": [
+            {
+              "x": 0.5976,
+              "y": 2.5843
+            },
+            {
+              "x": 1.4667,
+              "y": 2.5875
+            },
+            {
+              "x": 1.4667,
+              "y": 2.76
+            },
+            {
+              "x": 0.5976,
+              "y": 2.7596
+            }
+          ],
+          "span": {
+            "offset": 187,
+            "length": 8
+          },
+          "confidence": 0.993
+        },
+        {
+          "content": "KONU",
+          "polygon": [
+            {
+              "x": 0.5773,
+              "y": 3.0052
+            },
+            {
+              "x": 1.0527,
+              "y": 3.0068
+            },
+            {
+              "x": 1.0526,
+              "y": 3.1689
+            },
+            {
+              "x": 0.5776,
+              "y": 3.168
+            }
+          ],
+          "span": {
+            "offset": 196,
+            "length": 4
+          },
+          "confidence": 0.989
+        },
+        {
+          "content": ":",
+          "polygon": [
+            {
+              "x": 1.1085,
+              "y": 3.0073
+            },
+            {
+              "x": 1.151,
+              "y": 3.0079
+            },
+            {
+              "x": 1.1508,
+              "y": 3.1681
+            },
+            {
+              "x": 1.1084,
+              "y": 3.1686
+            }
+          ],
+          "span": {
+            "offset": 201,
+            "length": 1
+          },
+          "confidence": 0.982
+        },
+        {
+          "content": "Haciz",
+          "polygon": [
+            {
+              "x": 1.1829,
+              "y": 3.0079
+            },
+            {
+              "x": 1.5972,
+              "y": 3.0068
+            },
+            {
+              "x": 1.597,
+              "y": 3.1707
+            },
+            {
+              "x": 1.1827,
+              "y": 3.1684
+            }
+          ],
+          "span": {
+            "offset": 203,
+            "length": 5
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "İLGİ",
+          "polygon": [
+            {
+              "x": 0.5993,
+              "y": 3.241
+            },
+            {
+              "x": 0.978,
+              "y": 3.2412
+            },
+            {
+              "x": 0.9778,
+              "y": 3.432
+            },
+            {
+              "x": 0.599,
+              "y": 3.4325
+            }
+          ],
+          "span": {
+            "offset": 209,
+            "length": 4
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": ":Bila",
+          "polygon": [
+            {
+              "x": 1.1535,
+              "y": 3.243
+            },
+            {
+              "x": 1.4799,
+              "y": 3.2476
+            },
+            {
+              "x": 1.4798,
+              "y": 3.4363
+            },
+            {
+              "x": 1.1534,
+              "y": 3.4324
+            }
+          ],
+          "span": {
+            "offset": 214,
+            "length": 5
+          },
+          "confidence": 0.993
+        },
+        {
+          "content": "tarih",
+          "polygon": [
+            {
+              "x": 1.5199,
+              "y": 3.248
+            },
+            {
+              "x": 1.8248,
+              "y": 3.2514
+            },
+            {
+              "x": 1.8243,
+              "y": 3.4374
+            },
+            {
+              "x": 1.5198,
+              "y": 3.437
+            }
+          ],
+          "span": {
+            "offset": 220,
+            "length": 5
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "ve",
+          "polygon": [
+            {
+              "x": 1.8679,
+              "y": 3.2519
+            },
+            {
+              "x": 2.0218,
+              "y": 3.2535
+            },
+            {
+              "x": 2.0214,
+              "y": 3.4393
+            },
+            {
+              "x": 1.8674,
+              "y": 3.4379
+            }
+          ],
+          "span": {
+            "offset": 226,
+            "length": 2
+          },
+          "confidence": 0.999
+        },
+        {
+          "content": "2018/11780",
+          "polygon": [
+            {
+              "x": 2.0649,
+              "y": 3.2535
+            },
+            {
+              "x": 2.8594,
+              "y": 3.2597
+            },
+            {
+              "x": 2.8587,
+              "y": 3.4464
+            },
+            {
+              "x": 2.0645,
+              "y": 3.4394
+            }
+          ],
+          "span": {
+            "offset": 229,
+            "length": 10
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "sayılı",
+          "polygon": [
+            {
+              "x": 2.9087,
+              "y": 3.2601
+            },
+            {
+              "x": 3.2628,
+              "y": 3.2622
+            },
+            {
+              "x": 3.2617,
+              "y": 3.4501
+            },
+            {
+              "x": 2.908,
+              "y": 3.4468
+            }
+          ],
+          "span": {
+            "offset": 240,
+            "length": 6
+          },
+          "confidence": 0.994
+        },
+        {
+          "content": "yazınız;",
+          "polygon": [
+            {
+              "x": 3.3028,
+              "y": 3.2622
+            },
+            {
+              "x": 3.8386,
+              "y": 3.2668
+            },
+            {
+              "x": 3.8379,
+              "y": 3.4506
+            },
+            {
+              "x": 3.3017,
+              "y": 3.4505
+            }
+          ],
+          "span": {
+            "offset": 247,
+            "length": 8
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "39229158414/",
+          "polygon": [
+            {
+              "x": 0.5983,
+              "y": 3.679
+            },
+            {
+              "x": 1.575,
+              "y": 3.6795
+            },
+            {
+              "x": 1.5747,
+              "y": 3.865
+            },
+            {
+              "x": 0.5981,
+              "y": 3.8619
+            }
+          ],
+          "span": {
+            "offset": 256,
+            "length": 12
+          },
+          "confidence": 0.994
+        },
+        {
+          "content": "TCKN/VKN",
+          "polygon": [
+            {
+              "x": 1.6553,
+              "y": 3.6798
+            },
+            {
+              "x": 2.4743,
+              "y": 3.681
+            },
+            {
+              "x": 2.4739,
+              "y": 3.8703
+            },
+            {
+              "x": 1.655,
+              "y": 3.8656
+            }
+          ],
+          "span": {
+            "offset": 269,
+            "length": 8
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "no.'lu",
+          "polygon": [
+            {
+              "x": 2.5269,
+              "y": 3.6811
+            },
+            {
+              "x": 2.9255,
+              "y": 3.6818
+            },
+            {
+              "x": 2.9252,
+              "y": 3.8725
+            },
+            {
+              "x": 2.5265,
+              "y": 3.8706
+            }
+          ],
+          "span": {
+            "offset": 278,
+            "length": 6
+          },
+          "confidence": 0.991
+        },
+        {
+          "content": "Takip",
+          "polygon": [
+            {
+              "x": 2.9657,
+              "y": 3.6818
+            },
+            {
+              "x": 3.352,
+              "y": 3.6822
+            },
+            {
+              "x": 3.3516,
+              "y": 3.8736
+            },
+            {
+              "x": 2.9654,
+              "y": 3.8726
+            }
+          ],
+          "span": {
+            "offset": 285,
+            "length": 5
+          },
+          "confidence": 0.997
+        },
+        {
+          "content": "borçlusu",
+          "polygon": [
+            {
+              "x": 3.3953,
+              "y": 3.6823
+            },
+            {
+              "x": 3.9702,
+              "y": 3.6835
+            },
+            {
+              "x": 3.9698,
+              "y": 3.8747
+            },
+            {
+              "x": 3.3949,
+              "y": 3.8737
+            }
+          ],
+          "span": {
+            "offset": 291,
+            "length": 8
+          },
+          "confidence": 0.964
+        },
+        {
+          "content": "adına",
+          "polygon": [
+            {
+              "x": 4.0134,
+              "y": 3.6836
+            },
+            {
+              "x": 4.375,
+              "y": 3.6839
+            },
+            {
+              "x": 4.3748,
+              "y": 3.8748
+            },
+            {
+              "x": 4.0131,
+              "y": 3.8748
+            }
+          ],
+          "span": {
+            "offset": 300,
+            "length": 5
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "Bankamız",
+          "polygon": [
+            {
+              "x": 4.4152,
+              "y": 3.6839
+            },
+            {
+              "x": 5.0889,
+              "y": 3.6849
+            },
+            {
+              "x": 5.0886,
+              "y": 3.8752
+            },
+            {
+              "x": 4.4149,
+              "y": 3.8747
+            }
+          ],
+          "span": {
+            "offset": 306,
+            "length": 8
+          },
+          "confidence": 0.997
+        },
+        {
+          "content": "Genel",
+          "polygon": [
+            {
+              "x": 5.1322,
+              "y": 3.6851
+            },
+            {
+              "x": 5.5247,
+              "y": 3.6869
+            },
+            {
+              "x": 5.5244,
+              "y": 3.8776
+            },
+            {
+              "x": 5.1319,
+              "y": 3.8755
+            }
+          ],
+          "span": {
+            "offset": 315,
+            "length": 5
+          },
+          "confidence": 0.997
+        },
+        {
+          "content": "Müdürlüğü",
+          "polygon": [
+            {
+              "x": 5.5711,
+              "y": 3.6868
+            },
+            {
+              "x": 6.3221,
+              "y": 3.6887
+            },
+            {
+              "x": 6.3216,
+              "y": 3.8764
+            },
+            {
+              "x": 5.5708,
+              "y": 3.8775
+            }
+          ],
+          "span": {
+            "offset": 321,
+            "length": 9
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "ve",
+          "polygon": [
+            {
+              "x": 6.3622,
+              "y": 3.689
+            },
+            {
+              "x": 6.5168,
+              "y": 3.6899
+            },
+            {
+              "x": 6.5163,
+              "y": 3.8758
+            },
+            {
+              "x": 6.3618,
+              "y": 3.8764
+            }
+          ],
+          "span": {
+            "offset": 331,
+            "length": 2
+          },
+          "confidence": 0.999
+        },
+        {
+          "content": "tüm",
+          "polygon": [
+            {
+              "x": 6.56,
+              "y": 3.6901
+            },
+            {
+              "x": 6.8371,
+              "y": 3.6915
+            },
+            {
+              "x": 6.8371,
+              "y": 3.8744
+            },
+            {
+              "x": 6.5596,
+              "y": 3.8756
+            }
+          ],
+          "span": {
+            "offset": 334,
+            "length": 3
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "Şubelerimiz",
+          "polygon": [
+            {
+              "x": 0.5992,
+              "y": 3.8822
+            },
+            {
+              "x": 1.4113,
+              "y": 3.8818
+            },
+            {
+              "x": 1.4113,
+              "y": 4.0807
+            },
+            {
+              "x": 0.5995,
+              "y": 4.0788
+            }
+          ],
+          "span": {
+            "offset": 338,
+            "length": 11
+          },
+          "confidence": 0.993
+        },
+        {
+          "content": "nezdinde",
+          "polygon": [
+            {
+              "x": 1.4535,
+              "y": 3.8818
+            },
+            {
+              "x": 2.0544,
+              "y": 3.8833
+            },
+            {
+              "x": 2.0543,
+              "y": 4.0815
+            },
+            {
+              "x": 1.4535,
+              "y": 4.081
+            }
+          ],
+          "span": {
+            "offset": 350,
+            "length": 8
+          },
+          "confidence": 0.998
+        },
+        {
+          "content": "gerekli",
+          "polygon": [
+            {
+              "x": 2.0999,
+              "y": 3.8835
+            },
+            {
+              "x": 2.5579,
+              "y": 3.8846
+            },
+            {
+              "x": 2.5575,
+              "y": 4.0834
+            },
+            {
+              "x": 2.0998,
+              "y": 4.0815
+            }
+          ],
+          "span": {
+            "offset": 359,
+            "length": 7
+          },
+          "confidence": 0.999
+        },
+        {
+          "content": "araştırma",
+          "polygon": [
+            {
+              "x": 2.6034,
+              "y": 3.8847
+            },
+            {
+              "x": 3.2238,
+              "y": 3.8858
+            },
+            {
+              "x": 3.2238,
+              "y": 4.0836
+            },
+            {
+              "x": 2.603,
+              "y": 4.0836
+            }
+          ],
+          "span": {
+            "offset": 367,
+            "length": 9
+          },
+          "confidence": 0.996
+        },
+        {
+          "content": "yapılmış",
+          "polygon": [
+            {
+              "x": 3.2628,
+              "y": 3.8859
+            },
+            {
+              "x": 3.8345,
+              "y": 3.8863
+            },
+            {
+              "x": 3.8343,
+              "y": 4.0836
+            },
+            {
+              "x": 3.2627,
+              "y": 4.0836
+            }
+          ],
+          "span": {
+            "offset": 377,
+            "length": 8
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "olup,",
+          "polygon": [
+            {
+              "x": 3.8832,
+              "y": 3.8862
+            },
+            {
+              "x": 4.2113,
+              "y": 3.8858
+            },
+            {
+              "x": 4.2112,
+              "y": 4.0836
+            },
+            {
+              "x": 3.8831,
+              "y": 4.0836
+            }
+          ],
+          "span": {
+            "offset": 386,
+            "length": 5
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "adı",
+          "polygon": [
+            {
+              "x": 4.26,
+              "y": 3.8859
+            },
+            {
+              "x": 4.4614,
+              "y": 3.8862
+            },
+            {
+              "x": 4.4614,
+              "y": 4.0836
+            },
+            {
+              "x": 4.2599,
+              "y": 4.0836
+            }
+          ],
+          "span": {
+            "offset": 392,
+            "length": 3
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "geçen",
+          "polygon": [
+            {
+              "x": 4.5069,
+              "y": 3.8862
+            },
+            {
+              "x": 4.8934,
+              "y": 3.8848
+            },
+            {
+              "x": 4.8936,
+              "y": 4.0836
+            },
+            {
+              "x": 4.5069,
+              "y": 4.0836
+            }
+          ],
+          "span": {
+            "offset": 396,
+            "length": 5
+          },
+          "confidence": 0.999
+        },
+        {
+          "content": "borçlunun",
+          "polygon": [
+            {
+              "x": 4.9324,
+              "y": 3.8846
+            },
+            {
+              "x": 5.5885,
+              "y": 3.884
+            },
+            {
+              "x": 5.5885,
+              "y": 4.0836
+            },
+            {
+              "x": 4.9326,
+              "y": 4.0836
+            }
+          ],
+          "span": {
+            "offset": 402,
+            "length": 9
+          },
+          "confidence": 0.996
+        },
+        {
+          "content": "herhangi",
+          "polygon": [
+            {
+              "x": 5.6275,
+              "y": 3.8841
+            },
+            {
+              "x": 6.2316,
+              "y": 3.8869
+            },
+            {
+              "x": 6.2318,
+              "y": 4.0834
+            },
+            {
+              "x": 5.6274,
+              "y": 4.0836
+            }
+          ],
+          "span": {
+            "offset": 412,
+            "length": 8
+          },
+          "confidence": 0.996
+        },
+        {
+          "content": "bir",
+          "polygon": [
+            {
+              "x": 6.2739,
+              "y": 3.8868
+            },
+            {
+              "x": 6.4655,
+              "y": 3.8867
+            },
+            {
+              "x": 6.4656,
+              "y": 4.0836
+            },
+            {
+              "x": 6.274,
+              "y": 4.0835
+            }
+          ],
+          "span": {
+            "offset": 421,
+            "length": 3
+          },
+          "confidence": 0.999
+        },
+        {
+          "content": "hak",
+          "polygon": [
+            {
+              "x": 6.5045,
+              "y": 3.8867
+            },
+            {
+              "x": 6.7449,
+              "y": 3.8869
+            },
+            {
+              "x": 6.7448,
+              "y": 4.0836
+            },
+            {
+              "x": 6.5046,
+              "y": 4.0836
+            }
+          ],
+          "span": {
+            "offset": 425,
+            "length": 3
+          },
+          "confidence": 0.999
+        },
+        {
+          "content": "ve",
+          "polygon": [
+            {
+              "x": 6.7838,
+              "y": 3.887
+            },
+            {
+              "x": 6.9398,
+              "y": 3.8874
+            },
+            {
+              "x": 6.9396,
+              "y": 4.0827
+            },
+            {
+              "x": 6.7838,
+              "y": 4.0836
+            }
+          ],
+          "span": {
+            "offset": 429,
+            "length": 2
+          },
+          "confidence": 0.999
+        },
+        {
+          "content": "alacağına",
+          "polygon": [
+            {
+              "x": 6.9852,
+              "y": 3.8876
+            },
+            {
+              "x": 7.6247,
+              "y": 3.8876
+            },
+            {
+              "x": 7.6247,
+              "y": 4.0835
+            },
+            {
+              "x": 6.985,
+              "y": 4.0825
+            }
+          ],
+          "span": {
+            "offset": 432,
+            "length": 9
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "rastlanılmamıştır.",
+          "polygon": [
+            {
+              "x": 0.5944,
+              "y": 4.0879
+            },
+            {
+              "x": 1.7708,
+              "y": 4.0838
+            },
+            {
+              "x": 1.771,
+              "y": 4.2781
+            },
+            {
+              "x": 0.5948,
+              "y": 4.2753
+            }
+          ],
+          "span": {
+            "offset": 442,
+            "length": 18
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "İlgili",
+          "polygon": [
+            {
+              "x": 1.822,
+              "y": 4.0835
+            },
+            {
+              "x": 2.1161,
+              "y": 4.0821
+            },
+            {
+              "x": 2.1162,
+              "y": 4.2783
+            },
+            {
+              "x": 1.8222,
+              "y": 4.2781
+            }
+          ],
+          "span": {
+            "offset": 461,
+            "length": 6
+          },
+          "confidence": 0.993
+        },
+        {
+          "content": "kanun",
+          "polygon": [
+            {
+              "x": 2.1545,
+              "y": 4.0822
+            },
+            {
+              "x": 2.5956,
+              "y": 4.0832
+            },
+            {
+              "x": 2.5956,
+              "y": 4.2795
+            },
+            {
+              "x": 2.1546,
+              "y": 4.2784
+            }
+          ],
+          "span": {
+            "offset": 468,
+            "length": 5
+          },
+          "confidence": 0.997
+        },
+        {
+          "content": "hükümleri",
+          "polygon": [
+            {
+              "x": 2.634,
+              "y": 4.0832
+            },
+            {
+              "x": 3.3149,
+              "y": 4.0841
+            },
+            {
+              "x": 3.3153,
+              "y": 4.2796
+            },
+            {
+              "x": 2.634,
+              "y": 4.2795
+            }
+          ],
+          "span": {
+            "offset": 474,
+            "length": 9
+          },
+          "confidence": 0.996
+        },
+        {
+          "content": "gereğince",
+          "polygon": [
+            {
+              "x": 3.3628,
+              "y": 4.0842
+            },
+            {
+              "x": 3.983,
+              "y": 4.0848
+            },
+            {
+              "x": 3.9832,
+              "y": 4.2789
+            },
+            {
+              "x": 3.3633,
+              "y": 4.2798
+            }
+          ],
+          "span": {
+            "offset": 484,
+            "length": 9
+          },
+          "confidence": 0.996
+        },
+        {
+          "content": "hacze",
+          "polygon": [
+            {
+              "x": 4.0214,
+              "y": 4.0848
+            },
+            {
+              "x": 4.405,
+              "y": 4.0858
+            },
+            {
+              "x": 4.4051,
+              "y": 4.2784
+            },
+            {
+              "x": 4.0216,
+              "y": 4.2787
+            }
+          ],
+          "span": {
+            "offset": 494,
+            "length": 5
+          },
+          "confidence": 0.996
+        },
+        {
+          "content": "itiraz",
+          "polygon": [
+            {
+              "x": 4.4433,
+              "y": 4.0859
+            },
+            {
+              "x": 4.811,
+              "y": 4.0861
+            },
+            {
+              "x": 4.811,
+              "y": 4.2798
+            },
+            {
+              "x": 4.4434,
+              "y": 4.2785
+            }
+          ],
+          "span": {
+            "offset": 500,
+            "length": 6
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "eder",
+          "polygon": [
+            {
+              "x": 4.8589,
+              "y": 4.0859
+            },
+            {
+              "x": 5.1466,
+              "y": 4.0853
+            },
+            {
+              "x": 5.1467,
+              "y": 4.2818
+            },
+            {
+              "x": 4.859,
+              "y": 4.2801
+            }
+          ],
+          "span": {
+            "offset": 507,
+            "length": 4
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "cevap",
+          "polygon": [
+            {
+              "x": 5.185,
+              "y": 4.0853
+            },
+            {
+              "x": 5.5686,
+              "y": 4.0863
+            },
+            {
+              "x": 5.5687,
+              "y": 4.2819
+            },
+            {
+              "x": 5.185,
+              "y": 4.2818
+            }
+          ],
+          "span": {
+            "offset": 512,
+            "length": 5
+          },
+          "confidence": 0.998
+        },
+        {
+          "content": "verildiği",
+          "polygon": [
+            {
+              "x": 5.6134,
+              "y": 4.0864
+            },
+            {
+              "x": 6.176,
+              "y": 4.0853
+            },
+            {
+              "x": 6.1761,
+              "y": 4.2822
+            },
+            {
+              "x": 5.6134,
+              "y": 4.282
+            }
+          ],
+          "span": {
+            "offset": 518,
+            "length": 9
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "andan",
+          "polygon": [
+            {
+              "x": 6.2239,
+              "y": 4.0852
+            },
+            {
+              "x": 6.6171,
+              "y": 4.084
+            },
+            {
+              "x": 6.6172,
+              "y": 4.2822
+            },
+            {
+              "x": 6.224,
+              "y": 4.2822
+            }
+          ],
+          "span": {
+            "offset": 528,
+            "length": 5
+          },
+          "confidence": 0.998
+        },
+        {
+          "content": "itibaren",
+          "polygon": [
+            {
+              "x": 6.6619,
+              "y": 4.0839
+            },
+            {
+              "x": 7.1702,
+              "y": 4.0844
+            },
+            {
+              "x": 7.17,
+              "y": 4.2794
+            },
+            {
+              "x": 6.6619,
+              "y": 4.282
+            }
+          ],
+          "span": {
+            "offset": 534,
+            "length": 8
+          },
+          "confidence": 0.997
+        },
+        {
+          "content": "ileriye",
+          "polygon": [
+            {
+              "x": 7.2149,
+              "y": 4.0844
+            },
+            {
+              "x": 7.6475,
+              "y": 4.0841
+            },
+            {
+              "x": 7.6475,
+              "y": 4.2833
+            },
+            {
+              "x": 7.2148,
+              "y": 4.2799
+            }
+          ],
+          "span": {
+            "offset": 543,
+            "length": 7
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "yönelik",
+          "polygon": [
+            {
+              "x": 0.5905,
+              "y": 4.2893
+            },
+            {
+              "x": 1.0888,
+              "y": 4.2861
+            },
+            {
+              "x": 1.0888,
+              "y": 4.4801
+            },
+            {
+              "x": 0.5912,
+              "y": 4.4826
+            }
+          ],
+          "span": {
+            "offset": 551,
+            "length": 7
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "herhangi",
+          "polygon": [
+            {
+              "x": 1.1271,
+              "y": 4.2863
+            },
+            {
+              "x": 1.7308,
+              "y": 4.2845
+            },
+            {
+              "x": 1.7308,
+              "y": 4.4829
+            },
+            {
+              "x": 1.1271,
+              "y": 4.4803
+            }
+          ],
+          "span": {
+            "offset": 559,
+            "length": 8
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "bir",
+          "polygon": [
+            {
+              "x": 1.7724,
+              "y": 4.2841
+            },
+            {
+              "x": 1.9449,
+              "y": 4.2846
+            },
+            {
+              "x": 1.9448,
+              "y": 4.4829
+            },
+            {
+              "x": 1.7723,
+              "y": 4.4829
+            }
+          ],
+          "span": {
+            "offset": 568,
+            "length": 3
+          },
+          "confidence": 0.998
+        },
+        {
+          "content": "takip",
+          "polygon": [
+            {
+              "x": 1.9832,
+              "y": 4.2849
+            },
+            {
+              "x": 2.3314,
+              "y": 4.2863
+            },
+            {
+              "x": 2.3312,
+              "y": 4.4829
+            },
+            {
+              "x": 1.9831,
+              "y": 4.4829
+            }
+          ],
+          "span": {
+            "offset": 572,
+            "length": 5
+          },
+          "confidence": 0.998
+        },
+        {
+          "content": "yükümlülüğümüz",
+          "polygon": [
+            {
+              "x": 2.3729,
+              "y": 4.2863
+            },
+            {
+              "x": 3.5516,
+              "y": 4.2854
+            },
+            {
+              "x": 3.551,
+              "y": 4.4817
+            },
+            {
+              "x": 2.3727,
+              "y": 4.4829
+            }
+          ],
+          "span": {
+            "offset": 578,
+            "length": 14
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "olmadığı",
+          "polygon": [
+            {
+              "x": 3.5932,
+              "y": 4.2854
+            },
+            {
+              "x": 4.1841,
+              "y": 4.2852
+            },
+            {
+              "x": 4.1834,
+              "y": 4.4813
+            },
+            {
+              "x": 3.5926,
+              "y": 4.4817
+            }
+          ],
+          "span": {
+            "offset": 593,
+            "length": 8
+          },
+          "confidence": 0.993
+        },
+        {
+          "content": "hususunu",
+          "polygon": [
+            {
+              "x": 4.2257,
+              "y": 4.2851
+            },
+            {
+              "x": 4.8581,
+              "y": 4.2863
+            },
+            {
+              "x": 4.8572,
+              "y": 4.4826
+            },
+            {
+              "x": 4.2249,
+              "y": 4.4812
+            }
+          ],
+          "span": {
+            "offset": 602,
+            "length": 8
+          },
+          "confidence": 0.997
+        },
+        {
+          "content": "bilgilerinize",
+          "polygon": [
+            {
+              "x": 4.8965,
+              "y": 4.2865
+            },
+            {
+              "x": 5.7014,
+              "y": 4.2899
+            },
+            {
+              "x": 5.7005,
+              "y": 4.4808
+            },
+            {
+              "x": 4.8956,
+              "y": 4.4825
+            }
+          ],
+          "span": {
+            "offset": 611,
+            "length": 13
+          },
+          "confidence": 0.993
+        },
+        {
+          "content": "sunarız;",
+          "polygon": [
+            {
+              "x": 5.7494,
+              "y": 4.2904
+            },
+            {
+              "x": 6.2778,
+              "y": 4.2967
+            },
+            {
+              "x": 6.2778,
+              "y": 4.4829
+            },
+            {
+              "x": 5.7484,
+              "y": 4.4807
+            }
+          ],
+          "span": {
+            "offset": 625,
+            "length": 8
+          },
+          "confidence": 0.994
+        },
+        {
+          "content": "Bilgilerinize",
+          "polygon": [
+            {
+              "x": 0.5955,
+              "y": 4.5866
+            },
+            {
+              "x": 1.4377,
+              "y": 4.5882
+            },
+            {
+              "x": 1.4376,
+              "y": 4.7737
+            },
+            {
+              "x": 0.5958,
+              "y": 4.772
+            }
+          ],
+          "span": {
+            "offset": 634,
+            "length": 13
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "arz",
+          "polygon": [
+            {
+              "x": 1.4863,
+              "y": 4.5884
+            },
+            {
+              "x": 1.6839,
+              "y": 4.588
+            },
+            {
+              "x": 1.6838,
+              "y": 4.7732
+            },
+            {
+              "x": 1.4862,
+              "y": 4.7737
+            }
+          ],
+          "span": {
+            "offset": 648,
+            "length": 3
+          },
+          "confidence": 0.999
+        },
+        {
+          "content": "ederiz.",
+          "polygon": [
+            {
+              "x": 1.7326,
+              "y": 4.5877
+            },
+            {
+              "x": 2.1801,
+              "y": 4.5874
+            },
+            {
+              "x": 2.1801,
+              "y": 4.7708
+            },
+            {
+              "x": 1.7325,
+              "y": 4.7729
+            }
+          ],
+          "span": {
+            "offset": 652,
+            "length": 7
+          },
+          "confidence": 0.993
+        },
+        {
+          "content": "Saygılarımızla,",
+          "polygon": [
+            {
+              "x": 0.6015,
+              "y": 4.9167
+            },
+            {
+              "x": 1.6265,
+              "y": 4.9194
+            },
+            {
+              "x": 1.6265,
+              "y": 5.104
+            },
+            {
+              "x": 0.6031,
+              "y": 5.1021
+            }
+          ],
+          "span": {
+            "offset": 660,
+            "length": 15
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "ODEABANK",
+          "polygon": [
+            {
+              "x": 0.6041,
+              "y": 5.2201
+            },
+            {
+              "x": 1.5733,
+              "y": 5.2205
+            },
+            {
+              "x": 1.5733,
+              "y": 5.3954
+            },
+            {
+              "x": 0.6047,
+              "y": 5.3915
+            }
+          ],
+          "span": {
+            "offset": 676,
+            "length": 8
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "A.Ş.",
+          "polygon": [
+            {
+              "x": 1.6101,
+              "y": 5.2199
+            },
+            {
+              "x": 1.9176,
+              "y": 5.2202
+            },
+            {
+              "x": 1.9176,
+              "y": 5.3954
+            },
+            {
+              "x": 1.6101,
+              "y": 5.3954
+            }
+          ],
+          "span": {
+            "offset": 685,
+            "length": 4
+          },
+          "confidence": 0.975
+        },
+        {
+          "content": "GENEL",
+          "polygon": [
+            {
+              "x": 0.6048,
+              "y": 5.4304
+            },
+            {
+              "x": 1.1875,
+              "y": 5.4269
+            },
+            {
+              "x": 1.1881,
+              "y": 5.612
+            },
+            {
+              "x": 0.6057,
+              "y": 5.6102
+            }
+          ],
+          "span": {
+            "offset": 690,
+            "length": 5
+          },
+          "confidence": 0.997
+        },
+        {
+          "content": "MÜDÜRLÜK",
+          "polygon": [
+            {
+              "x": 1.2364,
+              "y": 5.4265
+            },
+            {
+              "x": 2.2486,
+              "y": 5.4213
+            },
+            {
+              "x": 2.2486,
+              "y": 5.6097
+            },
+            {
+              "x": 1.2369,
+              "y": 5.6117
+            }
+          ],
+          "span": {
+            "offset": 696,
+            "length": 8
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "VOLKAN",
+          "polygon": [
+            {
+              "x": 0.5816,
+              "y": 6.503
+            },
+            {
+              "x": 1.3173,
+              "y": 6.5045
+            },
+            {
+              "x": 1.317,
+              "y": 6.6799
+            },
+            {
+              "x": 0.582,
+              "y": 6.6757
+            }
+          ],
+          "span": {
+            "offset": 705,
+            "length": 6
+          },
+          "confidence": 0.989
+        },
+        {
+          "content": "AÇAR",
+          "polygon": [
+            {
+              "x": 1.3602,
+              "y": 6.5047
+            },
+            {
+              "x": 1.8548,
+              "y": 6.5039
+            },
+            {
+              "x": 1.8548,
+              "y": 6.6812
+            },
+            {
+              "x": 1.3599,
+              "y": 6.6798
+            }
+          ],
+          "span": {
+            "offset": 712,
+            "length": 4
+          },
+          "confidence": 0.988
+        },
+        {
+          "content": "Müdür",
+          "polygon": [
+            {
+              "x": 0.5753,
+              "y": 6.757
+            },
+            {
+              "x": 1.0453,
+              "y": 6.7596
+            },
+            {
+              "x": 1.0451,
+              "y": 6.9237
+            },
+            {
+              "x": 0.5755,
+              "y": 6.9218
+            }
+          ],
+          "span": {
+            "offset": 717,
+            "length": 5
+          },
+          "confidence": 0.994
+        },
+        {
+          "content": "Yardımcısı",
+          "polygon": [
+            {
+              "x": 1.0829,
+              "y": 6.7598
+            },
+            {
+              "x": 1.8377,
+              "y": 6.7641
+            },
+            {
+              "x": 1.8377,
+              "y": 6.9256
+            },
+            {
+              "x": 1.0827,
+              "y": 6.9239
+            }
+          ],
+          "span": {
+            "offset": 723,
+            "length": 10
+          },
+          "confidence": 0.993
+        },
+        {
+          "content": "THANH",
+          "polygon": [
+            {
+              "x": 4.7072,
+              "y": 5.8822
+            },
+            {
+              "x": 5.4389,
+              "y": 5.7781
+            },
+            {
+              "x": 5.4389,
+              "y": 6.2
+            },
+            {
+              "x": 4.7406,
+              "y": 6.268
+            }
+          ],
+          "span": {
+            "offset": 734,
+            "length": 5
+          },
+          "confidence": 0.075
+        },
+        {
+          "content": "TEOMAN",
+          "polygon": [
+            {
+              "x": 4.4574,
+              "y": 6.5038
+            },
+            {
+              "x": 5.2123,
+              "y": 6.5048
+            },
+            {
+              "x": 5.2124,
+              "y": 6.6707
+            },
+            {
+              "x": 4.4575,
+              "y": 6.6703
+            }
+          ],
+          "span": {
+            "offset": 740,
+            "length": 6
+          },
+          "confidence": 0.994
+        },
+        {
+          "content": "AYDINLI",
+          "polygon": [
+            {
+              "x": 5.2559,
+              "y": 6.5049
+            },
+            {
+              "x": 5.9925,
+              "y": 6.504
+            },
+            {
+              "x": 5.9925,
+              "y": 6.6698
+            },
+            {
+              "x": 5.2559,
+              "y": 6.6706
+            }
+          ],
+          "span": {
+            "offset": 747,
+            "length": 7
+          },
+          "confidence": 0.995
+        },
+        {
+          "content": "Direktör",
+          "polygon": [
+            {
+              "x": 4.4549,
+              "y": 6.7576
+            },
+            {
+              "x": 5.0451,
+              "y": 6.7595
+            },
+            {
+              "x": 5.0451,
+              "y": 6.9182
+            },
+            {
+              "x": 4.4547,
+              "y": 6.9168
+            }
+          ],
+          "span": {
+            "offset": 755,
+            "length": 8
+          },
+          "confidence": 0.994
+        },
+        {
+          "content": "Odea",
+          "polygon": [
+            {
+              "x": 0.5207,
+              "y": 10.8829
+            },
+            {
+              "x": 0.846,
+              "y": 10.8845
+            },
+            {
+              "x": 0.846,
+              "y": 11.0304
+            },
+            {
+              "x": 0.5212,
+              "y": 11.0295
+            }
+          ],
+          "span": {
+            "offset": 764,
+            "length": 4
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "Bank",
+          "polygon": [
+            {
+              "x": 0.899,
+              "y": 10.8846
+            },
+            {
+              "x": 1.1931,
+              "y": 10.885
+            },
+            {
+              "x": 1.1929,
+              "y": 11.0337
+            },
+            {
+              "x": 0.8989,
+              "y": 11.031
+            }
+          ],
+          "span": {
+            "offset": 769,
+            "length": 4
+          },
+          "confidence": 0.988
+        },
+        {
+          "content": "A.Ş,",
+          "polygon": [
+            {
+              "x": 1.2292,
+              "y": 10.8852
+            },
+            {
+              "x": 1.4667,
+              "y": 10.8847
+            },
+            {
+              "x": 1.4667,
+              "y": 11.0361
+            },
+            {
+              "x": 1.229,
+              "y": 11.0335
+            }
+          ],
+          "span": {
+            "offset": 774,
+            "length": 4
+          },
+          "confidence": 0.988
+        },
+        {
+          "content": "Mersis",
+          "polygon": [
+            {
+              "x": 0.5195,
+              "y": 11.0695
+            },
+            {
+              "x": 0.9331,
+              "y": 11.0695
+            },
+            {
+              "x": 0.9333,
+              "y": 11.2074
+            },
+            {
+              "x": 0.5199,
+              "y": 11.2084
+            }
+          ],
+          "span": {
+            "offset": 779,
+            "length": 6
+          },
+          "confidence": 0.996
+        },
+        {
+          "content": "No:",
+          "polygon": [
+            {
+              "x": 0.9817,
+              "y": 11.0691
+            },
+            {
+              "x": 1.185,
+              "y": 11.0683
+            },
+            {
+              "x": 1.1851,
+              "y": 11.208
+            },
+            {
+              "x": 0.9818,
+              "y": 11.2074
+            }
+          ],
+          "span": {
+            "offset": 786,
+            "length": 3
+          },
+          "confidence": 0.994
+        },
+        {
+          "content": "0-6340-4219-7300010,",
+          "polygon": [
+            {
+              "x": 1.2289,
+              "y": 11.068
+            },
+            {
+              "x": 2.6481,
+              "y": 11.0658
+            },
+            {
+              "x": 2.6481,
+              "y": 11.2115
+            },
+            {
+              "x": 1.229,
+              "y": 11.208
+            }
+          ],
+          "span": {
+            "offset": 790,
+            "length": 20
+          },
+          "confidence": 0.992
+        },
+        {
+          "content": "www.odeabank.com.tr",
+          "polygon": [
+            {
+              "x": 0.5136,
+              "y": 11.2616
+            },
+            {
+              "x": 1.969,
+              "y": 11.2547
+            },
+            {
+              "x": 1.969,
+              "y": 11.3897
+            },
+            {
+              "x": 0.5141,
+              "y": 11.3897
+            }
+          ],
+          "span": {
+            "offset": 811,
+            "length": 19
+          },
+          "confidence": 0.992
+        }
+      ],
+      "lines": [
+        {
+          "content": "odeabank",
+          "polygon": [
+            {
+              "x": 5.0985,
+              "y": 0.1014
+            },
+            {
+              "x": 7.5988,
+              "y": 0.0861
+            },
+            {
+              "x": 7.6019,
+              "y": 0.6369
+            },
+            {
+              "x": 5.1018,
+              "y": 0.6502
+            }
+          ],
+          "spans": [
+            {
+              "offset": 0,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "content": "Esentepe Mah.",
+          "polygon": [
+            {
+              "x": 0.6064,
+              "y": 0.077
+            },
+            {
+              "x": 1.454,
+              "y": 0.074
+            },
+            {
+              "x": 1.4545,
+              "y": 0.2114
+            },
+            {
+              "x": 0.6069,
+              "y": 0.2144
+            }
+          ],
+          "spans": [
+            {
+              "offset": 9,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "content": "Büyükdere Cad.",
+          "polygon": [
+            {
+              "x": 0.6068,
+              "y": 0.2385
+            },
+            {
+              "x": 1.4948,
+              "y": 0.2335
+            },
+            {
+              "x": 1.4953,
+              "y": 0.3748
+            },
+            {
+              "x": 0.6076,
+              "y": 0.3798
+            }
+          ],
+          "spans": [
+            {
+              "offset": 23,
+              "length": 14
+            }
+          ]
+        },
+        {
+          "content": "Levent 199 Apt. No:",
+          "polygon": [
+            {
+              "x": 0.607,
+              "y": 0.4049
+            },
+            {
+              "x": 1.7343,
+              "y": 0.4054
+            },
+            {
+              "x": 1.7342,
+              "y": 0.5432
+            },
+            {
+              "x": 0.6069,
+              "y": 0.5423
+            }
+          ],
+          "spans": [
+            {
+              "offset": 38,
+              "length": 19
+            }
+          ]
+        },
+        {
+          "content": "199/119",
+          "polygon": [
+            {
+              "x": 0.6075,
+              "y": 0.572
+            },
+            {
+              "x": 1.0913,
+              "y": 0.5694
+            },
+            {
+              "x": 1.092,
+              "y": 0.7007
+            },
+            {
+              "x": 0.6082,
+              "y": 0.7033
+            }
+          ],
+          "spans": [
+            {
+              "offset": 58,
+              "length": 7
+            }
+          ]
+        },
+        {
+          "content": "Şişli / İstanbul",
+          "polygon": [
+            {
+              "x": 0.601,
+              "y": 0.7385
+            },
+            {
+              "x": 1.4011,
+              "y": 0.7311
+            },
+            {
+              "x": 1.4025,
+              "y": 0.8783
+            },
+            {
+              "x": 0.6024,
+              "y": 0.8857
+            }
+          ],
+          "spans": [
+            {
+              "offset": 66,
+              "length": 16
+            }
+          ]
+        },
+        {
+          "content": "T: 0212 304 84 44",
+          "polygon": [
+            {
+              "x": 0.6011,
+              "y": 0.9059
+            },
+            {
+              "x": 1.6241,
+              "y": 0.9059
+            },
+            {
+              "x": 1.6241,
+              "y": 1.0351
+            },
+            {
+              "x": 0.6012,
+              "y": 1.0351
+            }
+          ],
+          "spans": [
+            {
+              "offset": 83,
+              "length": 17
+            }
+          ]
+        },
+        {
+          "content": "F: 0212 304 84 45",
+          "polygon": [
+            {
+              "x": 0.6039,
+              "y": 1.0716
+            },
+            {
+              "x": 1.6152,
+              "y": 1.0719
+            },
+            {
+              "x": 1.6152,
+              "y": 1.1989
+            },
+            {
+              "x": 0.6038,
+              "y": 1.1986
+            }
+          ],
+          "spans": [
+            {
+              "offset": 101,
+              "length": 17
+            }
+          ]
+        },
+        {
+          "content": "Ref No : 2510131016001131",
+          "polygon": [
+            {
+              "x": 0.5971,
+              "y": 1.2603
+            },
+            {
+              "x": 2.5739,
+              "y": 1.259
+            },
+            {
+              "x": 2.5739,
+              "y": 1.4194
+            },
+            {
+              "x": 0.5972,
+              "y": 1.4201
+            }
+          ],
+          "spans": [
+            {
+              "offset": 119,
+              "length": 25
+            }
+          ]
+        },
+        {
+          "content": "13.10.2025",
+          "polygon": [
+            {
+              "x": 0.5931,
+              "y": 1.6266
+            },
+            {
+              "x": 1.3419,
+              "y": 1.6256
+            },
+            {
+              "x": 1.3421,
+              "y": 1.7814
+            },
+            {
+              "x": 0.5933,
+              "y": 1.7824
+            }
+          ],
+          "spans": [
+            {
+              "offset": 145,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "content": "T.C.",
+          "polygon": [
+            {
+              "x": 0.6003,
+              "y": 2.0111
+            },
+            {
+              "x": 0.9279,
+              "y": 2.0114
+            },
+            {
+              "x": 0.9277,
+              "y": 2.1629
+            },
+            {
+              "x": 0.6002,
+              "y": 2.1625
+            }
+          ],
+          "spans": [
+            {
+              "offset": 156,
+              "length": 4
+            }
+          ]
+        },
+        {
+          "content": "İstanbul 32. İcra Dairesi",
+          "polygon": [
+            {
+              "x": 0.5986,
+              "y": 2.1929
+            },
+            {
+              "x": 2.3528,
+              "y": 2.1931
+            },
+            {
+              "x": 2.3527,
+              "y": 2.3739
+            },
+            {
+              "x": 0.5986,
+              "y": 2.3737
+            }
+          ],
+          "spans": [
+            {
+              "offset": 161,
+              "length": 25
+            }
+          ]
+        },
+        {
+          "content": "İSTANBUL",
+          "polygon": [
+            {
+              "x": 0.5976,
+              "y": 2.5843
+            },
+            {
+              "x": 1.4643,
+              "y": 2.5869
+            },
+            {
+              "x": 1.4638,
+              "y": 2.7593
+            },
+            {
+              "x": 0.5971,
+              "y": 2.7567
+            }
+          ],
+          "spans": [
+            {
+              "offset": 187,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "content": "KONU : Haciz",
+          "polygon": [
+            {
+              "x": 0.5773,
+              "y": 3.0043
+            },
+            {
+              "x": 1.5934,
+              "y": 3.0067
+            },
+            {
+              "x": 1.593,
+              "y": 3.168
+            },
+            {
+              "x": 0.5769,
+              "y": 3.1655
+            }
+          ],
+          "spans": [
+            {
+              "offset": 196,
+              "length": 12
+            }
+          ]
+        },
+        {
+          "content": "İLGİ :Bila tarih ve 2018/11780 sayılı yazınız;",
+          "polygon": [
+            {
+              "x": 0.5993,
+              "y": 3.2395
+            },
+            {
+              "x": 3.8359,
+              "y": 3.2599
+            },
+            {
+              "x": 3.8346,
+              "y": 3.4506
+            },
+            {
+              "x": 0.598,
+              "y": 3.4293
+            }
+          ],
+          "spans": [
+            {
+              "offset": 209,
+              "length": 46
+            }
+          ]
+        },
+        {
+          "content": "39229158414/ TCKN/VKN no.'lu Takip borçlusu adına Bankamız Genel Müdürlüğü ve tüm",
+          "polygon": [
+            {
+              "x": 0.5983,
+              "y": 3.6775
+            },
+            {
+              "x": 6.8325,
+              "y": 3.6867
+            },
+            {
+              "x": 6.8322,
+              "y": 3.8765
+            },
+            {
+              "x": 0.5981,
+              "y": 3.8673
+            }
+          ],
+          "spans": [
+            {
+              "offset": 256,
+              "length": 81
+            }
+          ]
+        },
+        {
+          "content": "Şubelerimiz nezdinde gerekli araştırma yapılmış olup, adı geçen borçlunun herhangi bir hak ve alacağına",
+          "polygon": [
+            {
+              "x": 0.5992,
+              "y": 3.8812
+            },
+            {
+              "x": 7.6215,
+              "y": 3.8849
+            },
+            {
+              "x": 7.6214,
+              "y": 4.0836
+            },
+            {
+              "x": 0.5991,
+              "y": 4.0806
+            }
+          ],
+          "spans": [
+            {
+              "offset": 338,
+              "length": 103
+            }
+          ]
+        },
+        {
+          "content": "rastlanılmamıştır. İlgili kanun hükümleri gereğince hacze itiraz eder cevap verildiği andan itibaren ileriye",
+          "polygon": [
+            {
+              "x": 0.5944,
+              "y": 4.08
+            },
+            {
+              "x": 7.6459,
+              "y": 4.0841
+            },
+            {
+              "x": 7.6458,
+              "y": 4.2807
+            },
+            {
+              "x": 0.5943,
+              "y": 4.2766
+            }
+          ],
+          "spans": [
+            {
+              "offset": 442,
+              "length": 108
+            }
+          ]
+        },
+        {
+          "content": "yönelik herhangi bir takip yükümlülüğümüz olmadığı hususunu bilgilerinize sunarız;",
+          "polygon": [
+            {
+              "x": 0.5905,
+              "y": 4.2833
+            },
+            {
+              "x": 6.275,
+              "y": 4.2863
+            },
+            {
+              "x": 6.2749,
+              "y": 4.4829
+            },
+            {
+              "x": 0.5904,
+              "y": 4.4803
+            }
+          ],
+          "spans": [
+            {
+              "offset": 551,
+              "length": 82
+            }
+          ]
+        },
+        {
+          "content": "Bilgilerinize arz ederiz.",
+          "polygon": [
+            {
+              "x": 0.5955,
+              "y": 4.5866
+            },
+            {
+              "x": 2.1768,
+              "y": 4.5874
+            },
+            {
+              "x": 2.1767,
+              "y": 4.7727
+            },
+            {
+              "x": 0.5954,
+              "y": 4.7718
+            }
+          ],
+          "spans": [
+            {
+              "offset": 634,
+              "length": 25
+            }
+          ]
+        },
+        {
+          "content": "Saygılarımızla,",
+          "polygon": [
+            {
+              "x": 0.6015,
+              "y": 4.9167
+            },
+            {
+              "x": 1.6243,
+              "y": 4.9194
+            },
+            {
+              "x": 1.6238,
+              "y": 5.1032
+            },
+            {
+              "x": 0.6011,
+              "y": 5.1006
+            }
+          ],
+          "spans": [
+            {
+              "offset": 660,
+              "length": 15
+            }
+          ]
+        },
+        {
+          "content": "ODEABANK A.Ş.",
+          "polygon": [
+            {
+              "x": 0.6041,
+              "y": 5.2201
+            },
+            {
+              "x": 1.9125,
+              "y": 5.2194
+            },
+            {
+              "x": 1.9126,
+              "y": 5.3939
+            },
+            {
+              "x": 0.6042,
+              "y": 5.3945
+            }
+          ],
+          "spans": [
+            {
+              "offset": 676,
+              "length": 13
+            }
+          ]
+        },
+        {
+          "content": "GENEL MÜDÜRLÜK",
+          "polygon": [
+            {
+              "x": 0.6048,
+              "y": 5.4186
+            },
+            {
+              "x": 2.2485,
+              "y": 5.4194
+            },
+            {
+              "x": 2.2484,
+              "y": 5.6101
+            },
+            {
+              "x": 0.6047,
+              "y": 5.6093
+            }
+          ],
+          "spans": [
+            {
+              "offset": 690,
+              "length": 14
+            }
+          ]
+        },
+        {
+          "content": "VOLKAN AÇAR",
+          "polygon": [
+            {
+              "x": 0.5816,
+              "y": 6.5028
+            },
+            {
+              "x": 1.8547,
+              "y": 6.5039
+            },
+            {
+              "x": 1.8546,
+              "y": 6.6792
+            },
+            {
+              "x": 0.5814,
+              "y": 6.6781
+            }
+          ],
+          "spans": [
+            {
+              "offset": 705,
+              "length": 11
+            }
+          ]
+        },
+        {
+          "content": "Müdür Yardımcısı",
+          "polygon": [
+            {
+              "x": 0.5753,
+              "y": 6.7564
+            },
+            {
+              "x": 1.8349,
+              "y": 6.763
+            },
+            {
+              "x": 1.8341,
+              "y": 6.9257
+            },
+            {
+              "x": 0.5745,
+              "y": 6.9191
+            }
+          ],
+          "spans": [
+            {
+              "offset": 717,
+              "length": 16
+            }
+          ]
+        },
+        {
+          "content": "THANH",
+          "polygon": [
+            {
+              "x": 4.7027,
+              "y": 5.8565
+            },
+            {
+              "x": 5.4204,
+              "y": 5.7756
+            },
+            {
+              "x": 5.4389,
+              "y": 6.188
+            },
+            {
+              "x": 4.7402,
+              "y": 6.268
+            }
+          ],
+          "spans": [
+            {
+              "offset": 734,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "content": "TEOMAN AYDINLI",
+          "polygon": [
+            {
+              "x": 4.4574,
+              "y": 6.5037
+            },
+            {
+              "x": 5.9914,
+              "y": 6.5032
+            },
+            {
+              "x": 5.9914,
+              "y": 6.6683
+            },
+            {
+              "x": 4.4575,
+              "y": 6.6687
+            }
+          ],
+          "spans": [
+            {
+              "offset": 740,
+              "length": 14
+            }
+          ]
+        },
+        {
+          "content": "Direktör",
+          "polygon": [
+            {
+              "x": 4.4549,
+              "y": 6.7562
+            },
+            {
+              "x": 5.0424,
+              "y": 6.7592
+            },
+            {
+              "x": 5.0416,
+              "y": 6.9176
+            },
+            {
+              "x": 4.4541,
+              "y": 6.9145
+            }
+          ],
+          "spans": [
+            {
+              "offset": 755,
+              "length": 8
+            }
+          ]
+        },
+        {
+          "content": "Odea Bank A.Ş,",
+          "polygon": [
+            {
+              "x": 0.5207,
+              "y": 10.8829
+            },
+            {
+              "x": 1.4667,
+              "y": 10.8845
+            },
+            {
+              "x": 1.4666,
+              "y": 11.0338
+            },
+            {
+              "x": 0.5204,
+              "y": 11.0321
+            }
+          ],
+          "spans": [
+            {
+              "offset": 764,
+              "length": 14
+            }
+          ]
+        },
+        {
+          "content": "Mersis No: 0-6340-4219-7300010,",
+          "polygon": [
+            {
+              "x": 0.5195,
+              "y": 11.0674
+            },
+            {
+              "x": 2.6476,
+              "y": 11.0658
+            },
+            {
+              "x": 2.6478,
+              "y": 11.2091
+            },
+            {
+              "x": 0.5196,
+              "y": 11.2107
+            }
+          ],
+          "spans": [
+            {
+              "offset": 779,
+              "length": 31
+            }
+          ]
+        },
+        {
+          "content": "www.odeabank.com.tr",
+          "polygon": [
+            {
+              "x": 0.5136,
+              "y": 11.255
+            },
+            {
+              "x": 1.9671,
+              "y": 11.2547
+            },
+            {
+              "x": 1.9672,
+              "y": 11.3893
+            },
+            {
+              "x": 0.5136,
+              "y": 11.3896
+            }
+          ],
+          "spans": [
+            {
+              "offset": 811,
+              "length": 19
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tables": [],
+  "styles": [
+    {
+      "isHandwritten": true,
+      "spans": [
+        {
+          "offset": 734,
+          "length": 5
+        }
+      ],
+      "confidence": 1
+    }
+  ],
+  "documents": [
+    {
+      "docType": "0505-YeniAlanlar-BankaCevap",
+      "boundingRegions": [
+        {
+          "pageNumber": 1,
+          "polygon": [
+            {
+              "x": 0,
+              "y": 0
+            },
+            {
+              "x": 8.2639,
+              "y": 0
+            },
+            {
+              "x": 8.2639,
+              "y": 11.6806
+            },
+            {
+              "x": 0,
+              "y": 11.6806
+            }
+          ]
+        }
+      ],
+      "spans": [
+        {
+          "offset": 0,
+          "length": 830
+        }
+      ],
+      "fields": {
+        "TCKN": {
+          "kind": "number",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                {
+                  "x": 0.5983,
+                  "y": 3.6777
+                },
+                {
+                  "x": 1.575,
+                  "y": 3.6795
+                },
+                {
+                  "x": 1.5747,
+                  "y": 3.865
+                },
+                {
+                  "x": 0.598,
+                  "y": 3.8632
+                }
+              ]
+            }
+          ],
+          "content": "39229158414/",
+          "spans": [
+            {
+              "offset": 256,
+              "length": 12
+            }
+          ],
+          "confidence": 0.768
+        },
+        "BELGETARIH": {
+          "kind": "date",
+          "value": "2025-10-13T00:00:00.000Z",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                {
+                  "x": 0.5931,
+                  "y": 1.6273
+                },
+                {
+                  "x": 1.3469,
+                  "y": 1.6259
+                },
+                {
+                  "x": 1.3472,
+                  "y": 1.784
+                },
+                {
+                  "x": 0.5934,
+                  "y": 1.7854
+                }
+              ]
+            }
+          ],
+          "content": "13.10.2025",
+          "spans": [
+            {
+              "offset": 145,
+              "length": 10
+            }
+          ],
+          "confidence": 0.965
+        },
+        "BANKAADI": {
+          "kind": "string",
+          "value": "ODEABANK A.Ş.",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                {
+                  "x": 0.6041,
+                  "y": 5.2173
+                },
+                {
+                  "x": 1.918,
+                  "y": 5.2202
+                },
+                {
+                  "x": 1.9176,
+                  "y": 5.3962
+                },
+                {
+                  "x": 0.6037,
+                  "y": 5.3932
+                }
+              ]
+            }
+          ],
+          "content": "ODEABANK A.Ş.",
+          "spans": [
+            {
+              "offset": 676,
+              "length": 13
+            }
+          ],
+          "confidence": 0.808
+        },
+        "EvrakNo": {
+          "kind": "string",
+          "value": "2018/11780",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                {
+                  "x": 2.0649,
+                  "y": 3.2531
+                },
+                {
+                  "x": 2.8603,
+                  "y": 3.2597
+                },
+                {
+                  "x": 2.8587,
+                  "y": 3.4464
+                },
+                {
+                  "x": 2.0634,
+                  "y": 3.4398
+                }
+              ]
+            }
+          ],
+          "content": "2018/11780",
+          "spans": [
+            {
+              "offset": 229,
+              "length": 10
+            }
+          ],
+          "confidence": 0.971
+        },
+        "ALICI": {
+          "kind": "string",
+          "value": "İstanbul 32. İcra Dairesi",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                {
+                  "x": 0.5986,
+                  "y": 2.1918
+                },
+                {
+                  "x": 2.3571,
+                  "y": 2.193
+                },
+                {
+                  "x": 2.357,
+                  "y": 2.376
+                },
+                {
+                  "x": 0.5985,
+                  "y": 2.3748
+                }
+              ]
+            }
+          ],
+          "content": "İstanbul 32. İcra Dairesi",
+          "spans": [
+            {
+              "offset": 161,
+              "length": 25
+            }
+          ],
+          "confidence": 0.803
+        },
+        "DosyaNo": {
+          "kind": "string",
+          "value": "2510131016001131",
+          "boundingRegions": [
+            {
+              "pageNumber": 1,
+              "polygon": [
+                {
+                  "x": 1.2428,
+                  "y": 1.2616
+                },
+                {
+                  "x": 2.5739,
+                  "y": 1.259
+                },
+                {
+                  "x": 2.5742,
+                  "y": 1.4201
+                },
+                {
+                  "x": 1.2431,
+                  "y": 1.4226
+                }
+              ]
+            }
+          ],
+          "content": "2510131016001131",
+          "spans": [
+            {
+              "offset": 128,
+              "length": 16
+            }
+          ],
+          "confidence": 0.957
+        },
+        "BORCLUTAMAD": {
+          "kind": "string",
+          "confidence": 0.239
+        },
+        "Tutar": {
+          "kind": "string",
+          "confidence": 0.607
+        }
+      },
+      "confidence": 0.956
+    }
+  ]
+}]]></HamOCR>
+</BelgeAnalizi>

@@ -1,0 +1,15 @@
+{
+  "endpoint": "https://idpege.cognitiveservices.azure.com/",
+  "apiKey": "",
+  "modelId": "0505-YeniAlanlar-BankaCevap",
+  "features": [],
+  "locale": "",
+  "pages": "",
+  "readingOrder": "basic",
+  "llmEnabled": true,
+  "llmProvider": "ollama",
+  "llmEndpoint": "http://localhost:11434",
+  "llmModel": "gemma4:e2b",
+  "llmTemperature": 0.3,
+  "llmPrompt": "\n\n{CONTENT}\n"
+}
